@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Sacrifice.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\SacrificeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\Sacrifice.cpp.obj"
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\SacrificeGameModeBase.cpp.obj"
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\Sacrifice.init.gen.cpp.obj"
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\SacrificeGameModeBase.gen.cpp.obj"
+"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\Default.rc2.res"
+/OUT:"S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\UE4Editor-Sacrifice.lib"
+/INCLUDE:IMPLEMENT_MODULE_Sacrifice

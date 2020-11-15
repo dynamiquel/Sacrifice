@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Sacrifice.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D7088976-A852-4BEB-AE52-77EADD367CC5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Sacrifice.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SacrificeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{76C53C0A-74AA-4711-B59D-A7240B2B9198}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Sacrifice">
+      <UniqueIdentifier>{E34ABEB6-76BD-4877-988B-A35CF5735F74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Sacrifice\Sacrifice.Build.cs">
+      <Filter>Source\Sacrifice</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Sacrifice\Sacrifice.cpp">
+      <Filter>Source\Sacrifice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sacrifice\Sacrifice.h">
+      <Filter>Source\Sacrifice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Sacrifice\SacrificeGameModeBase.cpp">
+      <Filter>Source\Sacrifice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sacrifice\SacrificeGameModeBase.h">
+      <Filter>Source\Sacrifice</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
