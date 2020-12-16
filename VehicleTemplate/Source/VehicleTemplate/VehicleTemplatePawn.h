@@ -100,6 +100,10 @@ public:
 	/** Handle reset VR device */
 	void OnResetVR();
 
+	// The delegate function for handling a hit event.
+	UFUNCTION()
+    void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
 

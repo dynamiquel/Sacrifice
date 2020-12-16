@@ -116,6 +116,8 @@ AVehicleTemplatePawn::AVehicleTemplatePawn()
 	GearDisplayColor = FColor(255, 255, 255, 255);
 
 	bInReverseGear = false;
+
+	OnActorHit.AddDynamic(this, &AVehicleTemplatePawn::OnHit);
 }
 
 void AVehicleTemplatePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -239,6 +241,11 @@ void AVehicleTemplatePawn::OnResetVR()
 		GetController()->SetControlRotation(FRotator());
 	}
 #endif // HMD_MODULE_INCLUDED
+}
+
+void AVehicleTemplatePawn::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Hit!"));
 }
 
 void AVehicleTemplatePawn::UpdateHUDStrings()

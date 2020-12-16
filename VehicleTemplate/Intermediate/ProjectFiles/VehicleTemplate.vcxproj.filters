@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VehicleTemplate.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5A85B885-B42E-4AAE-B4CA-217F5B282558}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VehicleTemplate.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VehicleTemplateEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5EA55FD6-A7FA-4CB2-AE49-CA93746537DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VehicleTemplate">
+      <UniqueIdentifier>{8B872A01-20F0-4098-A879-9975EED5A9FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplatePawn.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\AdvCarTemplatePawn.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplateWheelFront.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\AdvCarTemplateWheelFront.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplateWheelRear.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\AdvCarTemplateWheelRear.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\DamageComponent.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\DamageComponent.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\PhysicsTriggerActor.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\PhysicsTriggerActor.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\VehicleTemplate\VehicleTemplate.Build.cs">
+      <Filter>Source\VehicleTemplate</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplate.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplate.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplateGameMode.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplateGameMode.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplateHud.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplateHud.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplatePawn.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplatePawn.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplateWheelFront.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplateWheelFront.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\VehicleTemplateWheelRear.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\VehicleTemplateWheelRear.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
