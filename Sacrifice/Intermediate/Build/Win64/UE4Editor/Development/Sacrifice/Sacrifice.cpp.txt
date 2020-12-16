@@ -1,2 +1,0 @@
-S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\Definitions.Sacrifice.h
-S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Source\Sacrifice\Sacrifice.h

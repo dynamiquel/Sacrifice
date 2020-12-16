@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source\\VehicleTemplate\\VehicleTemplate.Build.cs",
+		"S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source\\VehicleTemplate.Target.cs",
+		"S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source\\VehicleTemplateEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VehicleTemplate",
+			"Path": "S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source\\VehicleTemplate.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VehicleTemplateEditor",
+			"Path": "S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source\\VehicleTemplateEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

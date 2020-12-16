@@ -1,9 +1,0 @@
-S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Development\Sacrifice\Definitions.Sacrifice.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Source\Sacrifice/SacrificeGameModeBase.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\Sacrifice\Intermediate\Build\Win64\UE4Editor\Inc\Sacrifice\SacrificeGameModeBase.generated.h
