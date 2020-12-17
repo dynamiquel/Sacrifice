@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "WheeledVehicle.h"
 #include "GameFramework/Actor.h"
 #include "PhysicsTriggerActor.generated.h"
 
@@ -19,8 +21,18 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	AWheeledVehicle* LastOffender;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	FDateTime LastHit;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	
+	UFUNCTION(BlueprintCallable)
+	void OnOverlap(AActor* OtherActor);
+	UFUNCTION(BlueprintCallable)
+	void OnDestroy();
 };

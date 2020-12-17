@@ -1,0 +1,5 @@
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Development\VehicleTemplate\Definitions.VehicleTemplate.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate/Hit.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\Hit.generated.h

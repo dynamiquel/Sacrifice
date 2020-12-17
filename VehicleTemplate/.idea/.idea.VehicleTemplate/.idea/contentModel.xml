@@ -42985,6 +42985,8 @@
           <e p="AdvCarTemplateWheelRear.h" t="Include" />
           <e p="DamageComponent.cpp" t="Include" />
           <e p="DamageComponent.h" t="Include" />
+          <e p="Hit.cpp" t="Include" />
+          <e p="Hit.h" t="Include" />
           <e p="PhysicsTriggerActor.cpp" t="Include" />
           <e p="PhysicsTriggerActor.h" t="Include" />
           <e p="VehicleTemplate.Build.cs" t="Include" />
