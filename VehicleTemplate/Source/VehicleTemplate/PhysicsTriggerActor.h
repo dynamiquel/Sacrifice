@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 
+
+#include "MyPlayerState.h"
 #include "WheeledVehicle.h"
 #include "GameFramework/Actor.h"
 #include "PhysicsTriggerActor.generated.h"
@@ -26,6 +28,11 @@ private:
 	AWheeledVehicle* LastOffender;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	FDateTime LastHit;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	AMyPlayerState* PlayerState;
+
+	void SetPlayerState();
+	void ReceiveHit(AWheeledVehicle* OtherVehicle);
 
 public:	
 	// Called every frame
