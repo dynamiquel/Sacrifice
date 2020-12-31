@@ -31,7 +31,7 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	AMyPlayerState* PlayerState;
 
-	void SetPlayerState();
+	void FindPlayerState();
 	void ReceiveHit(AWheeledVehicle* OtherVehicle);
 
 public:	

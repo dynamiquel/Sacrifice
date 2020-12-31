@@ -1,8 +1,8 @@
-﻿Log file open, 12/30/20 15:41:37
+﻿Log file open, 12/31/20 17:19:31
 LogInit: Display: Running engine for game: VehicleTemplate
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.305556
+LogStats: Stats thread started at 0.191278
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -141,12 +141,12 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: NVIDIA GeForce RTX 2060
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 2060
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  /Game/VehicleCPP/Maps/VehicleExampleMap?Listen -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed -ResX=1280 -ResY=720
+LogInit: Command Line:  /Game/VehicleCPP/Maps/VehicleExampleMap -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/PIEGameUserSettings1.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -196,585 +196,316 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.12.30-15.41.38:507][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.12.30-15.41.38:508][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.12.30-15.41.38:508][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.12.30-15.41.38:508][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:508][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:518][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.30-15.41.38:518][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.30-15.41.38:519][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.30-15.41.38:520][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.30-15.41.38:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.12.30-15.41.38:520][  0]LogHAL: Display: Platform has ~ 16 GB [17102000128 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.12.30-15.41.38:520][  0]LogInit: Going up to parent DeviceProfile []
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.30-15.41.38:520][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.30-15.41.38:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.30-15.41.38:522][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.12.30-15.41.38:523][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.12.30-15.41.38:523][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.12.30-15.41.38:523][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.12.30-15.41.38:523][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
-[2020.12.30-15.41.38:523][  0]LogInit: Computer: AORAKI
-[2020.12.30-15.41.38:523][  0]LogInit: User: Liamk
-[2020.12.30-15.41.38:523][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.12.30-15.41.38:523][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.12.30-15.41.38:523][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.12.30-15.41.38:523][  0]LogMemory: Platform Memory Stats for Windows
-[2020.12.30-15.41.38:523][  0]LogMemory: Process Physical Memory: 119.04 MB used, 119.04 MB peak
-[2020.12.30-15.41.38:523][  0]LogMemory: Process Virtual Memory: 104.69 MB used, 104.69 MB peak
-[2020.12.30-15.41.38:523][  0]LogMemory: Physical Memory: 13047.71 MB used,  3262.03 MB free, 16309.74 MB total
-[2020.12.30-15.41.38:523][  0]LogMemory: Virtual Memory: 5187.34 MB used,  134212544.00 MB free, 134217728.00 MB total
-[2020.12.30-15.41.38:535][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.12.30-15.41.38:632][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.12.30-15.41.38:633][  0]LogInit: Using OS detected language (fr-FR).
-[2020.12.30-15.41.38:633][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.12.30-15.41.38:635][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2020.12.30-15.41.38:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2020.12.30-15.41.38:638][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2020.12.30-15.41.38:692][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.12.30-15.41.38:693][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.12.30-15.41.38:729][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.12.30-15.41.38:729][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.12.30-15.41.38:729][  0]LogD3D11RHI: D3D11 adapters:
-[2020.12.30-15.41.38:895][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2020.12.30-15.41.38:895][  0]LogD3D11RHI:       5980/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.12.30-15.41.38:900][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.12.30-15.41.38:900][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.12.30-15.41.38:900][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.12.30-15.41.38:921][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.12.30-15.41.38:921][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
-[2020.12.30-15.41.38:921][  0]LogWindows: EnumDisplayDevices:
-[2020.12.30-15.41.38:921][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
-[2020.12.30-15.41.38:922][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
-[2020.12.30-15.41.38:922][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.12.30-15.41.38:923][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.12.30-15.41.38:923][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.12.30-15.41.38:923][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2020.12.30-15.41.38:923][  0]LogD3D11RHI:   Driver Version: 460.79 (internal:27.21.14.6079, unified:460.79)
-[2020.12.30-15.41.38:923][  0]LogD3D11RHI:      Driver Date: 12-3-2020
-[2020.12.30-15.41.38:923][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2020.12.30-15.41.39:060][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.12.30-15.41.39:060][  0]LogD3D11RHI: Async texture creation enabled
-[2020.12.30-15.41.39:060][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.12.30-15.41.39:063][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
-[2020.12.30-15.41.39:097][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.12.30-15.41.39:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.12.30-15.41.39:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.12.30-15.41.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.12.30-15.41.39:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.12.30-15.41.39:754][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.12.30-15.41.39:768][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.12.30-15.41.39:875][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Intermediate/Shaders/WorkingDirectory/23312/).
-[2020.12.30-15.41.39:875][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liamk/AppData/Local/Temp/UnrealShaderWorkingDir/1E084859455D2D31DA9EB3ADE835526B/'.
-[2020.12.30-15.41.39:877][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.12.30-15.41.39:877][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.12.30-15.41.39:877][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.12.30-15.41.40:981][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: Loaded boot cache 0.18s 114MB C:/Users/Liamk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Liamk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.30-15.41.41:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.12.30-15.41.41:179][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.12.30-15.41.41:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.30-15.41.41:179][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.12.30-15.41.41:182][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liamk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.12.30-15.41.41:182][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.12.30-15.41.41:182][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.12.30-15.41.41:269][  0]LogSlate: Using FreeType 2.10.0
-[2020.12.30-15.41.41:270][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.12.30-15.41.41:442][  0]LogInit: Using OS detected language (fr-FR).
-[2020.12.30-15.41.41:442][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.12.30-15.41.41:442][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2020.12.30-15.41.41:442][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
-[2020.12.30-15.41.41:442][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.30-15.41.41:442][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.12.30-15.41.41:442][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.12.30-15.41.41:446][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2020.12.30-15.41.41:711][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.002212 seconds
-[2020.12.30-15.41.41:792][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.30-15.41.41:970][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.12.30-15.41.41:970][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.12.30-15.41.41:970][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.12.30-15.41.41:970][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.12.30-15.41.41:970][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.12.30-15.41.42:007][  0]LogNetVersion: VehicleTemplate 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2213190734)
-[2020.12.30-15.41.42:502][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000176397771C0), frame # 0
-[2020.12.30-15.41.42:502][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001763976C400), frame # 0
-[2020.12.30-15.41.42:505][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001763977E600), frame # 0
-[2020.12.30-15.41.42:674][  0]LogCollectionManager: Loaded 0 collections in 0.001664 seconds
-[2020.12.30-15.41.42:680][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Collections/' took 0.00s
-[2020.12.30-15.41.42:680][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Content/Developers/Liamk/Collections/' took 0.00s
-[2020.12.30-15.41.42:680][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Content/Collections/' took 0.00s
-[2020.12.30-15.41.42:680][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2020.12.30-15.41.42:833][  0]LogMoviePlayer: Initializing movie player
-[2020.12.30-15.41.43:145][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.12.30-15.41.43:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.12.30-15.41.43:576][  0]SourceControl: Source control is disabled
-[2020.12.30-15.41.43:576][  0]SourceControl: Source control is disabled
-[2020.12.30-15.41.43:597][  0]SourceControl: Source control is disabled
-[2020.12.30-15.41.43:958][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.12.30-15.41.43:993][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.30-15.41.43:993][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.30-15.41.44:103][  0]LogOcInput: OculusInput pre-init called
-[2020.12.30-15.41.44:150][  0]LogUObjectArray: 19688 objects as part of root set at end of initial load.
-[2020.12.30-15.41.44:150][  0]LogUObjectAllocator: 5416288 out of 0 bytes used by permanent object pool.
-[2020.12.30-15.41.44:150][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.12.30-15.41.44:230][  0]LogEngine: Initializing Engine...
-[2020.12.30-15.41.44:232][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.12.30-15.41.44:235][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.12.30-15.41.44:542][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.30-15.41.44:555][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.30-15.41.44:555][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.30-15.41.44:556][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.30-15.41.44:556][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.30-15.41.44:619][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.30-15.41.44:619][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.12.30-15.41.44:746][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.12.30-15.41.44:751][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.30-15.41.44:753][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.30-15.41.44:753][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.30-15.41.44:755][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.30-15.41.44:756][  0]LogInit: FAudioDevice initialized.
-[2020.12.30-15.41.44:758][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.12.30-15.41.44:758][  0]LogInit: Texture streaming: Enabled
-[2020.12.30-15.41.44:927][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.30-15.41.44:928][  0]LogInit: Display: Game Engine Initialized.
-[2020.12.30-15.41.44:939][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2020.12.30-15.41.44:988][  0]LogInit: Display: Starting Game.
-[2020.12.30-15.41.44:988][  0]LogNet: Browse: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=Player?Listen
-[2020.12.30-15.41.44:988][  0]LogLoad: LoadMap: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=Player?Listen
-[2020.12.30-15.41.44:988][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.12.30-15.41.44:991][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.12.30-15.41.44:991][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.30-15.41.45:006][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2020.12.30-15.41.45:182][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.12.30-15.41.45:182][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001763E223C00), frame # 0
-[2020.12.30-15.41.45:182][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001763E742840), frame # 0
-[2020.12.30-15.41.45:183][  0]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
-[2020.12.30-15.41.45:183][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.12.30-15.41.45:183][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2020.12.30-15.41.45:184][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2020.12.30-15.41.45:184][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
-[2020.12.30-15.41.45:184][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.12.30-15.41.45:184][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2020.12.30-15.41.45:191][  0]LogWorld: Bringing World /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.12.30-15.41.45
-[2020.12.30-15.41.45:193][  0]LogWorld: Bringing up level for play took: 0.005503
-[2020.12.30-15.41.45:193][  0]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.30-15.41.45:200][  0]LogLoad: Took 0.212134 seconds to LoadMap(/Game/VehicleCPP/Maps/VehicleExampleMap)
-[2020.12.30-15.41.45:248][  0]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.30-15.41.45:272][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.12.30-15.41.45:273][  0]LogLoad: (Engine Initialization) Total time: 10.40 seconds
-[2020.12.30-15.41.45:273][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.12.30-15.41.45:300][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.12.30-15.41.45:301][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.12.30-15.41.45:301][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
-[2020.12.30-15.41.45:302][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.12.30-15.41.45:302][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
-[2020.12.30-15.41.45:307][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.12.30-15.41.45:311][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.30-15.41.45:695][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
-[2020.12.30-15.41.45:787][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
-[2020.12.30-15.41.45:876][  1]LogSlate: Took 0.000645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.30-15.41.45:998][ 21]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57969
-[2020.12.30-15.41.45:998][ 21]LogHandshake: SendConnectChallenge. Timestamp: 0.700099, Cookie: 243230097199164245230110175079143007253091128099139099114077
-[2020.12.30-15.41.46:002][ 22]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57969
-[2020.12.30-15.41.46:002][ 22]LogHandshake: SendChallengeAck. InCookie: 243230097199164245230110175079143007253091128099139099114077
-[2020.12.30-15.41.46:002][ 22]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57969
-[2020.12.30-15.41.46:002][ 22]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.12.30-15.41.46:002][ 22]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 12/30/20 15:41:46, [UNetConnection] RemoteAddr: 127.0.0.1:57969, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.12.30-15.41.46:002][ 22]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57969, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.12.30-15.41.46:006][ 23]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap: Accepted
-[2020.12.30-15.41.46:006][ 23]LogNet: Remote platform little endian=1
-[2020.12.30-15.41.46:006][ 23]LogNet: This platform little endian=1
-[2020.12.30-15.41.46:006][ 23]LogNetVersion: VehicleTemplate 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1153625170)
-[2020.12.30-15.41.46:010][ 24]LogNet: Login request: ?Name=AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7 userId: NULL:AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7 platform: NULL
-[2020.12.30-15.41.46:202][ 67]LogNet: Client netspeed is 10000
-[2020.12.30-15.41.46:202][ 67]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7?SplitscreenCount=1
-[2020.12.30-15.41.46:203][ 67]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2020.12.30-15.41.46:207][ 67]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
-[2020.12.30-15.41.46:207][ 67]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=210.000 Y=7500.000 Z=260.000] for [BP_VehicleTemplatePawn_C]
-[2020.12.30-15.41.46:207][ 67]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_VehicleTemplatePawn_C at Rotation: Pitch 0.000000 Yaw -89.999985 Roll 0.000000
-Translation: 210.000000 7500.000000 260.000000
-Scale3D: 1.000000 1.000000 1.000000
-
-[2020.12.30-15.41.46:207][ 67]LogNet: Join succeeded: AORAKI-EE4AAAFD4AE96
-[2020.12.30-15.41.57:227][611]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2020.12.30-15.41.57:227][611]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57969, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7
-[2020.12.30-15.41.57:227][611]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57969, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7, Channels: 10, Time: 2020.12.30-15.41.57
-[2020.12.30-15.41.57:227][611]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57969, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:AORAKI-EE4AAAFD4AE965C48C155B8B241AD2D7
-[2020.12.30-15.41.57:230][612]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.12.30-15.42.11:319][359]LogWindowsDesktop: Alt-F4 pressed!
-[2020.12.30-15.42.11:326][359]LogSlate: Window 'VehicleTemplate (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.12.30-15.42.11:328][359]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.12.30-15.42.11:338][359]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.12.30-15.42.11:339][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.30-15.42.11:339][359]LogEngine: All Windows Closed
-[2020.12.30-15.42.11:339][359]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.12.30-15.42.11:339][359]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.12.30-15.42.11:339][360]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.12.30-15.42.11:341][360]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2020.12.30-15.42.11:380][360]LogInit: Display: PreExit Game.
-[2020.12.30-15.42.11:416][360]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/VehicleExampleMap
-[2020.12.30-15.42.11:416][360]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.12.30-15.42.11:416][360]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.12.30-15.42.11:416][360]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.12.30-15.42.11:416][360]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.12.30-15.42.11:416][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.30-15.42.12:266][360]LogExit: Preparing to exit.
-[2020.12.30-15.42.13:187][360]LogMoviePlayer: Shutting down movie player
-[2020.12.30-15.42.13:361][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.30-15.42.13:371][360]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.12.30-15.42.13:372][360]LogExit: Game engine shut down
-[2020.12.30-15.42.13:394][360]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001763E223C00), frame # 6360
-[2020.12.30-15.42.13:394][360]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001763E742840), frame # 6360
-[2020.12.30-15.42.13:394][360]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000176397771C0), frame # 6360
-[2020.12.30-15.42.13:395][360]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001763976C400), frame # 6360
-[2020.12.30-15.42.13:395][360]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001763977E600), frame # 6360
-[2020.12.30-15.42.13:432][360]LogExit: Object subsystem successfully closed.
-[2020.12.30-15.42.13:488][360]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.12.30-15.42.13:505][360]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (500)
-[2020.12.30-15.42.13:505][360]LogModuleManager: Shutting down and abandoning module SequenceRecorder (498)
-[2020.12.30-15.42.13:505][360]LogModuleManager: Shutting down and abandoning module AutomationController (496)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module Voice (492)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AIModule (490)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module GameplayDebugger (489)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AITestSuite (487)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module NavigationSystem (485)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module OculusMR (482)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (478)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module WebMMedia (476)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (474)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (472)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (470)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (468)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (466)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module PlanarCut (464)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module CharacterAI (462)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (458)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module LiveCoding (456)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module LevelSequence (454)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (452)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MovieScene (450)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (448)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module PortalServices (446)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module PortalRpc (444)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module MessagingRpc (442)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (440)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module AudioMixerCore (439)
-[2020.12.30-15.42.13:506][360]LogModuleManager: Shutting down and abandoning module ProfilerService (436)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module TaskGraph (434)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module Synthesis (432)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (430)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module OculusInput (428)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (426)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module GooglePAD (424)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module EditableMesh (422)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (420)
-[2020.12.30-15.42.13:715][360]LogModuleManager: Shutting down and abandoning module CableComponent (418)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AudioCapture (416)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (415)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AssetTags (412)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (410)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (408)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AppleImageUtils (406)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module AndroidPermission (404)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (402)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (400)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module TemplateSequence (398)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (396)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (394)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (392)
-[2020.12.30-15.42.13:716][360]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (391)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (384)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (382)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (380)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (378)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (376)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module RawInput (374)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (372)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module MeshConversion (370)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module DynamicMesh (368)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (366)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometricObjects (364)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (362)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (361)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (357)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module ChaosNiagara (350)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module ChaosCloth (348)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module BackChannel (346)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module AutomationUtils (344)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module HotReload (341)
-[2020.12.30-15.42.13:719][360]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (332)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module SourceControl (329)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (324)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module VehicleTemplate (322)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module SoundFields (320)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module SignificanceManager (318)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (316)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (314)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (310)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module ActorSequence (308)
-[2020.12.30-15.42.13:720][360]LogModuleManager: Shutting down and abandoning module UdpMessaging (306)
-[2020.12.30-15.42.13:822][360]LogModuleManager: Shutting down and abandoning module TcpMessaging (304)
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.31-17.19.32:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.31-17.19.32:176][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:176][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:183][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.31-17.19.32:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.31-17.19.32:184][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.31-17.19.32:184][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.31-17.19.32:184][  0]LogHAL: Display: Platform has ~ 32 GB [34281828352 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.31-17.19.32:184][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:184][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.31-17.19.32:184][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.31-17.19.32:185][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Config/Windows/Engine.ini]
+[2020.12.31-17.19.32:186][  0]LogInit: Computer: AORAKI
+[2020.12.31-17.19.32:186][  0]LogInit: User: Liamk
+[2020.12.31-17.19.32:186][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.12.31-17.19.32:186][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.31-17.19.32:186][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.12.31-17.19.32:186][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.31-17.19.32:186][  0]LogMemory: Process Physical Memory: 122.58 MB used, 122.58 MB peak
+[2020.12.31-17.19.32:186][  0]LogMemory: Process Virtual Memory: 110.90 MB used, 110.90 MB peak
+[2020.12.31-17.19.32:186][  0]LogMemory: Physical Memory: 18496.80 MB used,  14196.89 MB free, 32693.70 MB total
+[2020.12.31-17.19.32:186][  0]LogMemory: Virtual Memory: 5193.70 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.12.31-17.19.32:193][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.31-17.19.32:242][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.31-17.19.32:242][  0]LogInit: Using OS detected language (fr-FR).
+[2020.12.31-17.19.32:242][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.12.31-17.19.32:243][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.12.31-17.19.32:244][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.12.31-17.19.32:244][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.12.31-17.19.32:245][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.12.31-17.19.32:245][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.12.31-17.19.32:245][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.12.31-17.19.32:245][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.12.31-17.19.32:245][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.12.31-17.19.32:304][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.31-17.19.32:304][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.31-17.19.32:314][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.31-17.19.32:314][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.31-17.19.32:314][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.31-17.19.32:402][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.12.31-17.19.32:402][  0]LogD3D11RHI:       5980/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.12.31-17.19.32:406][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.31-17.19.32:406][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.31-17.19.32:406][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.31-17.19.32:416][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.31-17.19.32:416][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.31-17.19.32:416][  0]LogWindows: EnumDisplayDevices:
+[2020.12.31-17.19.32:416][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2020.12.31-17.19.32:416][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.12.31-17.19.32:416][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.31-17.19.32:417][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.31-17.19.32:417][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.31-17.19.32:417][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.12.31-17.19.32:417][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2020.12.31-17.19.32:417][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2020.12.31-17.19.32:417][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.12.31-17.19.32:483][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.31-17.19.32:483][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.31-17.19.32:483][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.31-17.19.32:487][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2020.12.31-17.19.32:513][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.12.31-17.19.32:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.31-17.19.32:911][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.31-17.19.32:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.31-17.19.32:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.31-17.19.32:922][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.31-17.19.32:926][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.31-17.19.32:950][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Intermediate/Shaders/WorkingDirectory/7568/).
+[2020.12.31-17.19.32:950][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liamk/AppData/Local/Temp/UnrealShaderWorkingDir/97A7E4FE4ECE7EB4DA4BB490977E0116/'.
+[2020.12.31-17.19.32:950][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.31-17.19.32:950][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.31-17.19.32:950][  0]LogShaderCompilers: Display: Using Local Shader Compiler.

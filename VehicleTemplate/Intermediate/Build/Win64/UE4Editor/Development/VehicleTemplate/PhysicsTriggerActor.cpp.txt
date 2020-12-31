@@ -7,7 +7,6 @@ S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Wi
 D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\PhysicsTriggerActor.generated.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Compression/lz4.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h

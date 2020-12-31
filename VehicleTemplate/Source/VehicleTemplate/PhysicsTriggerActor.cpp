@@ -6,7 +6,6 @@
 
 #include "MyPlayerState.h"
 #include "WheeledVehicle.h"
-#include "Compression/lz4.h"
 #include "Kismet/GameplayStatics.h"
 
 // Sets default values
@@ -22,7 +21,7 @@ void APhysicsTriggerActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetPlayerState();
+	FindPlayerState();
 }
 
 // Called every frame
@@ -30,18 +29,18 @@ void APhysicsTriggerActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	if (GetActorLocation().Y <= -10.f)
+	if (GetActorLocation().Z <= -15.f)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Orange, TEXT("Fall Death"));
+		GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Orange, TEXT("Falling"));
 	}
 
 	// I can't seem to get round the issue where the second player cannot retrieve its PlayerState in BeginPlay.
 	// This method keeps attempting to get the PlayerState.
 	if (!PlayerState)
-		SetPlayerState();
+		FindPlayerState();
 }
 
-void APhysicsTriggerActor::SetPlayerState()
+void APhysicsTriggerActor::FindPlayerState()
 {
 	AWheeledVehicle* ThisVehicle = Cast<AWheeledVehicle>(GetParentActor());
 	if (!ThisVehicle)
@@ -95,8 +94,8 @@ void APhysicsTriggerActor::OnDestroy()
 			// Gives the enemy one point.
 			EnemyPlayerState->SetScore(EnemyPlayerState->GetScore() + 1.f);
 
-			DeathText = FString::Printf(TEXT("%s killed %s (%f points)"),
-                *EnemyPlayerState->GetPlayerName(), *PlayerState->GetPlayerName(), EnemyPlayerState->GetScore());
+			DeathText = FString::Printf(TEXT("%s killed %s (%d points)"),
+                *EnemyPlayerState->GetPlayerName(), *PlayerState->GetPlayerName(), (int)EnemyPlayerState->GetScore());
 		}
 	}
 	else /* suicide */
@@ -104,8 +103,8 @@ void APhysicsTriggerActor::OnDestroy()
 		// Removes one point from this player.
 		PlayerState->SetScore(PlayerState->GetScore() - 1.f);
 
-		DeathText = FString::Printf(TEXT("%s committed suicide! (%f points)"),
-			*PlayerState->GetPlayerName(), PlayerState->GetScore());
+		DeathText = FString::Printf(TEXT("%s committed suicide! (%d points)"),
+			*PlayerState->GetPlayerName(), (int)PlayerState->GetScore());
 	}
 
 	// Outputs the death and the reason for it.
