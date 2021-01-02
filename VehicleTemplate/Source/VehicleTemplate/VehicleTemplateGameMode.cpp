@@ -1,6 +1,8 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "VehicleTemplateGameMode.h"
+
+#include "MyPlayerController.h"
 #include "VehicleTemplatePawn.h"
 #include "VehicleTemplateHud.h"
 #include "GameFramework/PlayerStart.h"
@@ -17,6 +19,27 @@ void AVehicleTemplateGameMode::BeginPlay()
 	Super::BeginPlay();
 
 	FindAllPlayerStarts();
+	
+	HandleGameStart();
+}
+
+void AVehicleTemplateGameMode::HandleGameStart()
+{
+	TArray<AActor*> PlayerControllers;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMyPlayerController::StaticClass(), PlayerControllers);
+	
+	GameStart();
+	
+	for (AActor* PlayerController : PlayerControllers)
+	{
+		AMyPlayerController* PlayerControllerRef = Cast<AMyPlayerController>(PlayerController);
+		PlayerControllerRef->SetPlayerEnabledState(false);
+
+		FTimerHandle PlayerEnableHandle;
+		FTimerDelegate PlayerEnableDelegate = FTimerDelegate::CreateUObject(PlayerControllerRef,
+			&AMyPlayerController::SetPlayerEnabledState, true);
+		GetWorld()->GetTimerManager().SetTimer(PlayerEnableHandle, PlayerEnableDelegate, 5.f, false);
+	}
 }
 
 // Custom Player Start so the players can spawn in an index-order.

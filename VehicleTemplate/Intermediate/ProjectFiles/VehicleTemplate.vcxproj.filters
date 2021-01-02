@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VehicleTemplate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{39487BB8-22F6-40AF-96BE-CF9B0649BF9B}</UniqueIdentifier>
+      <UniqueIdentifier>{0FA867FD-5485-4182-8081-DB8C186DA40D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VehicleTemplate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D16869F1-0142-4710-BBF4-46AB38480A95}</UniqueIdentifier>
+      <UniqueIdentifier>{37E380C4-CFB4-4E5A-9B38-A1DC8483D7D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VehicleTemplate">
-      <UniqueIdentifier>{76D90943-C630-4D05-B34F-BE00FCA2A7C2}</UniqueIdentifier>
+      <UniqueIdentifier>{22CF0C50-84BF-4811-A1E7-B48BB6350572}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplatePawn.cpp">
       <Filter>Source\VehicleTemplate</Filter>
@@ -60,6 +60,12 @@
       <Filter>Source\VehicleTemplate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\VehicleTemplate\Hit.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\MyPlayerController.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\MyPlayerController.h">
       <Filter>Source\VehicleTemplate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\VehicleTemplate\MyPlayerState.cpp">

@@ -9,6 +9,7 @@
 #include "WheeledVehicleMovementComponent.h"
 #include "Engine/Font.h"
 #include "CanvasItem.h"
+#include "PhysicsTriggerActor.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Engine/Engine.h"
 
@@ -50,6 +51,20 @@ void AVehicleTemplateHud::DrawHUD()
 			FCanvasTextItem GearTextItem(FVector2D(HUDXRatio * 805.f, HUDYRatio * 500.f), Vehicle->GearDisplayString, HUDFont, Vehicle->bInReverseGear == false ? Vehicle->GearDisplayColor : Vehicle->GearDisplayReverseColor);
 			GearTextItem.Scale = ScaleVec;
 			Canvas->DrawItem(GearTextItem);
+
+			// Player State loaded
+			if (Vehicle->GetPlayerState())
+			{
+				// Score
+				FCanvasTextItem ScoreTextItem(FVector2D(HUDXRatio * 1150, HUDYRatio * 670), FText::FromString(FString::Printf(TEXT("Score: %d"), (int)Vehicle->GetPlayerState()->GetScore())), HUDFont, FLinearColor::White);
+				ScoreTextItem.Scale = ScaleVec;
+				Canvas->DrawItem(ScoreTextItem);
+
+				// Death feed
+				FCanvasTextItem DeathFeedTextItem(FVector2D(HUDXRatio * 40, HUDYRatio * 600), FText::AsNumber(353535), HUDFont, FLinearColor::White);
+				DeathFeedTextItem.Scale = ScaleVec * .5f;
+				Canvas->DrawItem(DeathFeedTextItem);
+			}
 		}
 	}
 }

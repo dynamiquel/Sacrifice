@@ -19,8 +19,62 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 	UPackage* Z_Construct_UPackage__Script_VehicleTemplate();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	static FName NAME_AVehicleTemplateGameMode_GameOver = FName(TEXT("GameOver"));
+	void AVehicleTemplateGameMode::GameOver()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AVehicleTemplateGameMode_GameOver),NULL);
+	}
+	static FName NAME_AVehicleTemplateGameMode_GameStart = FName(TEXT("GameStart"));
+	void AVehicleTemplateGameMode::GameStart()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AVehicleTemplateGameMode_GameStart),NULL);
+	}
 	void AVehicleTemplateGameMode::StaticRegisterNativesAVehicleTemplateGameMode()
 	{
+	}
+	struct Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "VehicleTemplateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVehicleTemplateGameMode, nullptr, "GameOver", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "VehicleTemplateGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVehicleTemplateGameMode, nullptr, "GameStart", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AVehicleTemplateGameMode_NoRegister()
 	{
@@ -29,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 	struct Z_Construct_UClass_AVehicleTemplateGameMode_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -44,6 +99,10 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 	UObject* (*const Z_Construct_UClass_AVehicleTemplateGameMode_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleTemplate,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AVehicleTemplateGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AVehicleTemplateGameMode_GameOver, "GameOver" }, // 259876004
+		{ &Z_Construct_UFunction_AVehicleTemplateGameMode_GameStart, "GameStart" }, // 838991095
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplateGameMode_Statics::Class_MetaDataParams[] = {
@@ -72,11 +131,11 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AVehicleTemplateGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplateGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
@@ -91,7 +150,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVehicleTemplateGameMode, 3489385015);
+	IMPLEMENT_CLASS(AVehicleTemplateGameMode, 304427420);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<AVehicleTemplateGameMode>()
 	{
 		return AVehicleTemplateGameMode::StaticClass();

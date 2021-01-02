@@ -14,6 +14,10 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameStart();
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameOver();
 
 public:
 	virtual AActor* FindPlayerStart_Implementation(AController* Player, const FString& IncomingName) override;
@@ -25,6 +29,8 @@ private:
 	bool SkipSpawnIncrement = true;
 	
 	void FindAllPlayerStarts();
+	void HandleGameStart();
+	void HandleGameOver();
 };
 
 

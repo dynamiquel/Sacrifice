@@ -42987,6 +42987,8 @@
           <e p="DamageComponent.h" t="Include" />
           <e p="Hit.cpp" t="Include" />
           <e p="Hit.h" t="Include" />
+          <e p="MyPlayerController.cpp" t="Include" />
+          <e p="MyPlayerController.h" t="Include" />
           <e p="MyPlayerState.cpp" t="Include" />
           <e p="MyPlayerState.h" t="Include" />
           <e p="PhysicsTriggerActor.cpp" t="Include" />
