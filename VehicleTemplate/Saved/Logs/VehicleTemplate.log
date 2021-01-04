@@ -8363,3 +8363,1141 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.04-16.44.21:599][ 19]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/BP_VehicleTemplateGameModeEB5FCA4747B7BFF82C292E99E555A786.tmp' to 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Content/Blueprints/GameModes/BP_VehicleTemplateGameMode.uasset'
 [2021.01.04-16.44.21:614][ 19]AssetCheck: New page: Asset Save: BP_VehicleTemplateGameMode
 [2021.01.04-16.44.21:614][ 19]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode
+[2021.01.04-16.54.12:202][814]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-16.54.12:244][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.01.04-16.54.14:274][ 30]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-16.54.14:283][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.54.14:283][ 30]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 16:54:14)
+[2021.01.04-16.54.14:285][ 30]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.54.14:303][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017900s)
+[2021.01.04-16.54.14:303][ 30]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.54.14:303][ 30]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241D478BE00), frame # 423030
+[2021.01.04-16.54.14:303][ 30]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024181E11F80), frame # 423030
+[2021.01.04-16.54.14:304][ 30]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2021.01.04-16.54.14:304][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019065s)
+[2021.01.04-16.54.14:333][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.54.14:334][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.54.14:334][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.54.14:335][ 30]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.54.14:335][ 30]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.54.14:340][ 30]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.54.14:340][ 30]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.54.14:372][ 30]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.54.14:373][ 30]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.54.14:373][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.54.14:373][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.54.14:373][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.54.14:382][ 30]LogInit: FAudioDevice initialized.
+[2021.01.04-16.54.14:386][ 30]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-16.54.14:388][ 30]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.54.14
+[2021.01.04-16.54.14:389][ 30]LogWorld: Bringing up level for play took: 0.001322
+[2021.01.04-16.54.14:389][ 30]LogOnline: OSS: Creating online subsystem instance for: :Context_123
+[2021.01.04-16.54.14:390][ 30]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.54.14:390][ 30]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-16.54.14:391][ 30]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-16.54.14:391][ 30]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-16.54.14:391][ 30]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-16.54.14:391][ 30]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-16.54.14:391][ 30]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.54.14:391][ 30]LogNet: GameNetDriver IpNetDriver_88 IpNetDriver listening on port 17777
+[2021.01.04-16.54.14:392][ 30]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.54.14:392][ 30]PIE: Server logged in
+[2021.01.04-16.54.14:393][ 30]PIE: Play in editor total start time 0,11 seconds.
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.54.14:394][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.54.14:394][ 30]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.54.14:394][ 30]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.54.14:400][ 30]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.54.14:400][ 30]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.54.14:427][ 30]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.54.14:427][ 30]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.54.14:427][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.54.14:427][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.54.14:428][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.54.14:436][ 30]LogInit: FAudioDevice initialized.
+[2021.01.04-16.54.14:466][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.54.14:467][ 30]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-16.54.14:467][ 30]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-16.54.14:467][ 30]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-16.54.14:467][ 30]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.54.14:467][ 30]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-16.54.14:469][ 30]PIE: Client logged in
+[2021.01.04-16.54.14:470][ 30]PIE: Play in editor total start time 0,187 seconds.
+[2021.01.04-16.54.15:480][144]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50618
+[2021.01.04-16.54.15:480][144]LogHandshake: SendConnectChallenge. Timestamp: 1.213325, Cookie: 057194114008136123089085165090250241183025158004248063197243
+[2021.01.04-16.54.15:481][144]LogHandshake: SendChallengeResponse. Timestamp: 1.213325, Cookie: 057194114008136123089085165090250241183025158004248063197243
+[2021.01.04-16.54.15:488][145]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50618
+[2021.01.04-16.54.15:488][145]LogHandshake: SendChallengeAck. InCookie: 057194114008136123089085165090250241183025158004248063197243
+[2021.01.04-16.54.15:489][145]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50618
+[2021.01.04-16.54.15:489][145]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.54.15:489][145]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 16:54:15, [UNetConnection] RemoteAddr: 127.0.0.1:50618, Name: IpConnection_112, Driver: GameNetDriver IpNetDriver_88, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.54.15:489][145]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50618, Name: IpConnection_112, Driver: GameNetDriver IpNetDriver_88, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.54.15:489][145]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_111, Driver: PendingNetDriver IpNetDriver_89, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.54.15:497][146]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-16.54.15:497][146]LogNet: Remote platform little endian=1
+[2021.01.04-16.54.15:497][146]LogNet: This platform little endian=1
+[2021.01.04-16.54.15:497][146]LogOnline: OSS: Creating online subsystem instance for: :Context_124
+[2021.01.04-16.54.15:505][147]LogNet: Login request: ?Name=AORAKI-31E6993D492C478796604DA409277981 userId: NULL:AORAKI-31E6993D492C478796604DA409277981 platform: NULL
+[2021.01.04-16.54.15:506][147]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-16.54.15:506][147]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-16.54.15:506][147]LogWorld: BeginTearingDown for /Temp/Untitled_57
+[2021.01.04-16.54.15:506][147]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.54.15:506][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.54.15:531][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.01.04-16.54.15:550][147]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.54.15:550][147]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241DDDAA400), frame # 423147
+[2021.01.04-16.54.15:550][147]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241F064AAC0), frame # 423147
+[2021.01.04-16.54.15:552][147]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.54.15
+[2021.01.04-16.54.15:552][147]LogWorld: Bringing up level for play took: 0.000617
+[2021.01.04-16.54.15:553][147]LogLoad: Took 0.046768 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-16.54.15:560][148]LogNet: Client netspeed is 10000
+[2021.01.04-16.54.15:560][148]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-31E6993D492C478796604DA409277981?SplitscreenCount=1
+[2021.01.04-16.54.15:560][148]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.54.15:561][148]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-16.54.15:561][148]LogNet: Join succeeded: AORAKI-31E6993D492C4
+[2021.01.04-16.54.15:899][187]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.54.15:951][193]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.54.16:151][217]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.16:151][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.16:151][217]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.16:151][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.16:151][217]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.16:151][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.16:151][217]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.16:151][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.16:952][313]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.16:952][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.16:952][313]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.16:953][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.16:953][313]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.16:953][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.16:953][313]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.16:953][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.17:736][407]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.17:736][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.17:736][407]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.17:736][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.17:736][407]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:0408
+[2021.01.04-16.54.17:736][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.54.17:736][407]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_110.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:04CB
+[2021.01.04-16.54.17:736][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.54.18:269][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.54.18:269][462]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-16.54.18:270][462]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-16.54.18:273][462]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.54.18:273][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.54.18:277][462]LogNet: World NetDriver shutdown IpNetDriver_89 [GameNetDriver]
+[2021.01.04-16.54.18:277][462]LogNet: DestroyNamedNetDriver IpNetDriver_89 [GameNetDriver]
+[2021.01.04-16.54.18:277][462]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_111, Driver: GameNetDriver IpNetDriver_89, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-31E6993D492C478796604DA409277981, Channels: 10, Time: 2021.01.04-16.54.18
+[2021.01.04-16.54.18:277][462]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_111, Driver: GameNetDriver IpNetDriver_89, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-31E6993D492C478796604DA409277981
+[2021.01.04-16.54.18:277][462]LogExit: GameNetDriver IpNetDriver_89 shut down
+[2021.01.04-16.54.18:278][462]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.54.18:278][462]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-16.54.18:278][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.54.18:279][462]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.54.18:279][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.54.18:286][462]LogNet: World NetDriver shutdown IpNetDriver_88 [GameNetDriver]
+[2021.01.04-16.54.18:286][462]LogNet: DestroyNamedNetDriver IpNetDriver_88 [GameNetDriver]
+[2021.01.04-16.54.18:286][462]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:50618, Name: IpConnection_112, Driver: GameNetDriver IpNetDriver_88, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-31E6993D492C478796604DA409277981
+[2021.01.04-16.54.18:286][462]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50618, Name: IpConnection_112, Driver: GameNetDriver IpNetDriver_88, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-31E6993D492C478796604DA409277981, Channels: 10, Time: 2021.01.04-16.54.18
+[2021.01.04-16.54.18:286][462]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50618, Name: IpConnection_112, Driver: GameNetDriver IpNetDriver_88, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-31E6993D492C478796604DA409277981
+[2021.01.04-16.54.18:286][462]LogExit: GameNetDriver IpNetDriver_88 shut down
+[2021.01.04-16.54.18:286][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-16.54.18:291][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.54.18:372][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.54.18:374][462]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241F064AAC0), frame # 423462
+[2021.01.04-16.54.18:374][462]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241DDDAA400), frame # 423462
+[2021.01.04-16.54.18:374][462]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024181E11F80), frame # 423462
+[2021.01.04-16.54.18:374][462]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241D478BE00), frame # 423462
+[2021.01.04-16.54.18:377][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.01.04-16.54.18:479][463]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2021.01.04-16.54.18:479][463]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2021.01.04-16.54.26:973][457]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.54.26:980][457]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.55.38:657][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.01.04-16.55.38:659][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleCPP/Maps/VehicleExampleMap' took 0.026
+[2021.01.04-16.55.38:660][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Leaderboard] ([1] browsable assets)...
+[2021.01.04-16.55.38:660][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Leaderboard]
+[2021.01.04-16.55.38:670][997]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/WBP_Leaderboard_Auto3C537E18044CCCBDFCF630D882CFBE0FB.tmp' to 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Leaderboard_Auto3.uasset'
+[2021.01.04-16.55.38:672][997]LogFileHelpers: Auto-saving content packages took 0.013
+[2021.01.04-16.55.53:467][710]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-16.55.53:502][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.01.04-16.55.54:671][824]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-16.55.54:680][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.55.54:680][824]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 16:55:54)
+[2021.01.04-16.55.54:680][824]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.55.54:697][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017031s)
+[2021.01.04-16.55.54:697][824]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.55.54:697][824]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241C7D82200), frame # 434824
+[2021.01.04-16.55.54:698][824]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241E6D6D580), frame # 434824
+[2021.01.04-16.55.54:698][824]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2021.01.04-16.55.54:698][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.018051s)
+[2021.01.04-16.55.54:724][824]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.55.54:726][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.55.54:726][824]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.55.54:726][824]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.55.54:731][824]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.55.54:731][824]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.55.54:762][824]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.55.54:762][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.55.54:762][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.55.54:763][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.55.54:763][824]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.55.54:771][824]LogInit: FAudioDevice initialized.
+[2021.01.04-16.55.54:781][824]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-16.55.54:783][824]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.55.54
+[2021.01.04-16.55.54:783][824]LogWorld: Bringing up level for play took: 0.000782
+[2021.01.04-16.55.54:783][824]LogOnline: OSS: Creating online subsystem instance for: :Context_125
+[2021.01.04-16.55.54:784][824]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.55.54:784][824]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-16.55.54:785][824]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-16.55.54:785][824]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-16.55.54:785][824]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-16.55.54:785][824]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-16.55.54:785][824]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.55.54:785][824]LogNet: GameNetDriver IpNetDriver_90 IpNetDriver listening on port 17777
+[2021.01.04-16.55.54:786][824]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.55.54:786][824]PIE: Server logged in
+[2021.01.04-16.55.54:787][824]PIE: Play in editor total start time 0,108 seconds.
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.55.54:787][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.55.54:787][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.55.54:788][824]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.55.54:788][824]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.55.54:792][824]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.55.54:792][824]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.55.54:819][824]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.55.54:820][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.55.54:820][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.55.54:820][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.55.54:820][824]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.55.54:828][824]LogInit: FAudioDevice initialized.
+[2021.01.04-16.55.54:855][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.55.54:855][824]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-16.55.54:855][824]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-16.55.54:855][824]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-16.55.54:855][824]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.55.54:855][824]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-16.55.54:857][824]PIE: Client logged in
+[2021.01.04-16.55.54:858][824]PIE: Play in editor total start time 0,18 seconds.
+[2021.01.04-16.55.55:809][931]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	WBP_Leaderboard_C /Engine/Transient.UnrealEdEngine_0:GameInstance_112.WBP_Leaderboard_C_0
+	Function /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard_C:UpdateValues:040B
+[2021.01.04-16.55.55:809][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.55.55:809][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.55.55:867][938]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52112
+[2021.01.04-16.55.55:867][938]LogHandshake: SendConnectChallenge. Timestamp: 1.204940, Cookie: 206235172132168227165101043015079094195234042175236074151134
+[2021.01.04-16.55.55:868][938]LogHandshake: SendChallengeResponse. Timestamp: 1.204940, Cookie: 206235172132168227165101043015079094195234042175236074151134
+[2021.01.04-16.55.55:876][939]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52112
+[2021.01.04-16.55.55:876][939]LogHandshake: SendChallengeAck. InCookie: 206235172132168227165101043015079094195234042175236074151134
+[2021.01.04-16.55.55:876][939]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52112
+[2021.01.04-16.55.55:876][939]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.55.55:876][939]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 16:55:55, [UNetConnection] RemoteAddr: 127.0.0.1:52112, Name: IpConnection_114, Driver: GameNetDriver IpNetDriver_90, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.55.55:876][939]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52112, Name: IpConnection_114, Driver: GameNetDriver IpNetDriver_90, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.55.55:877][939]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_113, Driver: PendingNetDriver IpNetDriver_91, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.55.55:884][940]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-16.55.55:884][940]LogNet: Remote platform little endian=1
+[2021.01.04-16.55.55:884][940]LogNet: This platform little endian=1
+[2021.01.04-16.55.55:885][940]LogOnline: OSS: Creating online subsystem instance for: :Context_126
+[2021.01.04-16.55.55:892][941]LogNet: Login request: ?Name=AORAKI-CB42A3BB4C88F5A7BCCE698291B65573 userId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573 platform: NULL
+[2021.01.04-16.55.55:893][941]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-16.55.55:893][941]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-16.55.55:893][941]LogWorld: BeginTearingDown for /Temp/Untitled_58
+[2021.01.04-16.55.55:893][941]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.55.55:893][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.55.55:919][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.01.04-16.55.55:936][941]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.55.55:936][941]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241907DE600), frame # 434941
+[2021.01.04-16.55.55:936][941]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241E43E7740), frame # 434941
+[2021.01.04-16.55.55:938][941]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.55.55
+[2021.01.04-16.55.55:938][941]LogWorld: Bringing up level for play took: 0.000836
+[2021.01.04-16.55.55:938][941]LogLoad: Took 0.045317 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-16.55.55:946][942]LogNet: Client netspeed is 10000
+[2021.01.04-16.55.55:946][942]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-CB42A3BB4C88F5A7BCCE698291B65573?SplitscreenCount=1
+[2021.01.04-16.55.55:946][942]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.55.55:947][942]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-16.55.55:948][942]LogNet: Join succeeded: AORAKI-CB42A3BB4C88F
+[2021.01.04-16.55.56:251][977]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.55.56:384][993]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.55.56:551][ 13]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.55.56:551][ 13]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.55.57:719][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.55.57:719][146]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-16.55.57:720][146]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-16.55.57:722][146]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.55.57:723][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.55.57:728][146]LogNet: World NetDriver shutdown IpNetDriver_91 [GameNetDriver]
+[2021.01.04-16.55.57:728][146]LogNet: DestroyNamedNetDriver IpNetDriver_91 [GameNetDriver]
+[2021.01.04-16.55.57:728][146]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_113, Driver: GameNetDriver IpNetDriver_91, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573, Channels: 10, Time: 2021.01.04-16.55.57
+[2021.01.04-16.55.57:728][146]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_113, Driver: GameNetDriver IpNetDriver_91, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573
+[2021.01.04-16.55.57:729][146]LogExit: GameNetDriver IpNetDriver_91 shut down
+[2021.01.04-16.55.57:729][146]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.55.57:729][146]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-16.55.57:729][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.55.57:729][146]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.55.57:730][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.55.57:737][146]LogNet: World NetDriver shutdown IpNetDriver_90 [GameNetDriver]
+[2021.01.04-16.55.57:737][146]LogNet: DestroyNamedNetDriver IpNetDriver_90 [GameNetDriver]
+[2021.01.04-16.55.57:737][146]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:52112, Name: IpConnection_114, Driver: GameNetDriver IpNetDriver_90, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573
+[2021.01.04-16.55.57:737][146]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52112, Name: IpConnection_114, Driver: GameNetDriver IpNetDriver_90, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573, Channels: 10, Time: 2021.01.04-16.55.57
+[2021.01.04-16.55.57:737][146]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52112, Name: IpConnection_114, Driver: GameNetDriver IpNetDriver_90, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CB42A3BB4C88F5A7BCCE698291B65573
+[2021.01.04-16.55.57:737][146]LogExit: GameNetDriver IpNetDriver_90 shut down
+[2021.01.04-16.55.57:737][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-16.55.57:742][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.55.57:817][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.55.57:819][146]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241E43E7740), frame # 435146
+[2021.01.04-16.55.57:819][146]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241907DE600), frame # 435146
+[2021.01.04-16.55.57:819][146]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241E6D6D580), frame # 435146
+[2021.01.04-16.55.57:819][146]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241C7D82200), frame # 435146
+[2021.01.04-16.55.57:822][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.01.04-16.55.57:922][147]LogPlayLevel: Display: Destroying online subsystem :Context_126
+[2021.01.04-16.55.57:922][147]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2021.01.04-16.56.00:061][382]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.56.00:069][382]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.56.40:373][ 66]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-16.56.40:407][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.01.04-16.56.41:530][181]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-16.56.41:539][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.56.41:539][181]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 16:56:41)
+[2021.01.04-16.56.41:568][181]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.56.41:583][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015449s)
+[2021.01.04-16.56.41:584][181]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.56.41:584][181]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241C8077600), frame # 440181
+[2021.01.04-16.56.41:584][181]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241FDDABB00), frame # 440181
+[2021.01.04-16.56.41:584][181]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2021.01.04-16.56.41:584][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016550s)
+[2021.01.04-16.56.41:612][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.56.41:613][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.56.41:613][181]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.56.41:613][181]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.56.41:619][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.56.41:619][181]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.56.41:649][181]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.56.41:649][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.56.41:649][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.56.41:649][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.56.41:649][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.56.41:658][181]LogInit: FAudioDevice initialized.
+[2021.01.04-16.56.41:668][181]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-16.56.41:670][181]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.56.41
+[2021.01.04-16.56.41:670][181]LogWorld: Bringing up level for play took: 0.000932
+[2021.01.04-16.56.41:671][181]LogOnline: OSS: Creating online subsystem instance for: :Context_127
+[2021.01.04-16.56.41:672][181]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.56.41:672][181]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-16.56.41:673][181]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-16.56.41:673][181]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-16.56.41:673][181]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-16.56.41:673][181]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-16.56.41:673][181]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.56.41:673][181]LogNet: GameNetDriver IpNetDriver_92 IpNetDriver listening on port 17777
+[2021.01.04-16.56.41:673][181]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.56.41:673][181]PIE: Server logged in
+[2021.01.04-16.56.41:674][181]PIE: Play in editor total start time 0,137 seconds.
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.56.41:675][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.56.41:675][181]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.56.41:675][181]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.56.41:680][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.56.41:680][181]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.56.41:707][181]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.56.41:707][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.56.41:707][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.56.41:707][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.56.41:707][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.56.41:715][181]LogInit: FAudioDevice initialized.
+[2021.01.04-16.56.41:745][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.56.41:745][181]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-16.56.41:746][181]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-16.56.41:746][181]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-16.56.41:746][181]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.56.41:746][181]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-16.56.41:748][181]PIE: Client logged in
+[2021.01.04-16.56.41:749][181]PIE: Play in editor total start time 0,211 seconds.
+[2021.01.04-16.56.42:503][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.56.42:503][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.56.42:760][296]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62606
+[2021.01.04-16.56.42:760][296]LogHandshake: SendConnectChallenge. Timestamp: 1.238837, Cookie: 023078110235077224053209208107160080087225068027102077176080
+[2021.01.04-16.56.42:761][296]LogHandshake: SendChallengeResponse. Timestamp: 1.238837, Cookie: 023078110235077224053209208107160080087225068027102077176080
+[2021.01.04-16.56.42:768][297]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62606
+[2021.01.04-16.56.42:768][297]LogHandshake: SendChallengeAck. InCookie: 023078110235077224053209208107160080087225068027102077176080
+[2021.01.04-16.56.42:768][297]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62606
+[2021.01.04-16.56.42:769][297]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.56.42:769][297]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 16:56:42, [UNetConnection] RemoteAddr: 127.0.0.1:62606, Name: IpConnection_116, Driver: GameNetDriver IpNetDriver_92, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.56.42:769][297]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62606, Name: IpConnection_116, Driver: GameNetDriver IpNetDriver_92, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.56.42:769][297]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_115, Driver: PendingNetDriver IpNetDriver_93, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.56.42:777][298]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-16.56.42:777][298]LogNet: Remote platform little endian=1
+[2021.01.04-16.56.42:777][298]LogNet: This platform little endian=1
+[2021.01.04-16.56.42:777][298]LogOnline: OSS: Creating online subsystem instance for: :Context_128
+[2021.01.04-16.56.42:785][299]LogNet: Login request: ?Name=AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1 userId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1 platform: NULL
+[2021.01.04-16.56.42:786][299]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-16.56.42:786][299]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-16.56.42:786][299]LogWorld: BeginTearingDown for /Temp/Untitled_59
+[2021.01.04-16.56.42:786][299]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.56.42:786][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.56.42:812][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.01.04-16.56.42:829][299]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.56.42:829][299]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002417D91CA00), frame # 440299
+[2021.01.04-16.56.42:829][299]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024179683100), frame # 440299
+[2021.01.04-16.56.42:831][299]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.56.42
+[2021.01.04-16.56.42:831][299]LogWorld: Bringing up level for play took: 0.000580
+[2021.01.04-16.56.42:831][299]LogLoad: Took 0.045742 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-16.56.42:838][300]LogNet: Client netspeed is 10000
+[2021.01.04-16.56.42:838][300]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1?SplitscreenCount=1
+[2021.01.04-16.56.42:839][300]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.56.42:839][300]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-16.56.42:840][300]LogNet: Join succeeded: AORAKI-CF80E4B64B494
+[2021.01.04-16.56.43:127][333]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.56.43:169][338]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.56.43:260][349]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Name
+[2021.01.04-16.56.43:260][349]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Set Score
+[2021.01.04-16.56.43:998][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.56.43:998][432]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-16.56.43:999][432]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-16.56.44:002][432]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.56.44:002][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.56.44:008][432]LogNet: World NetDriver shutdown IpNetDriver_93 [GameNetDriver]
+[2021.01.04-16.56.44:008][432]LogNet: DestroyNamedNetDriver IpNetDriver_93 [GameNetDriver]
+[2021.01.04-16.56.44:008][432]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_115, Driver: GameNetDriver IpNetDriver_93, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1, Channels: 10, Time: 2021.01.04-16.56.44
+[2021.01.04-16.56.44:008][432]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_115, Driver: GameNetDriver IpNetDriver_93, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1
+[2021.01.04-16.56.44:009][432]LogExit: GameNetDriver IpNetDriver_93 shut down
+[2021.01.04-16.56.44:009][432]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.56.44:009][432]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-16.56.44:009][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.56.44:009][432]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.56.44:010][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.56.44:017][432]LogNet: World NetDriver shutdown IpNetDriver_92 [GameNetDriver]
+[2021.01.04-16.56.44:017][432]LogNet: DestroyNamedNetDriver IpNetDriver_92 [GameNetDriver]
+[2021.01.04-16.56.44:017][432]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:62606, Name: IpConnection_116, Driver: GameNetDriver IpNetDriver_92, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1
+[2021.01.04-16.56.44:017][432]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62606, Name: IpConnection_116, Driver: GameNetDriver IpNetDriver_92, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1, Channels: 10, Time: 2021.01.04-16.56.44
+[2021.01.04-16.56.44:017][432]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62606, Name: IpConnection_116, Driver: GameNetDriver IpNetDriver_92, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-CF80E4B64B494BD7DE2F62AAE959CAA1
+[2021.01.04-16.56.44:017][432]LogExit: GameNetDriver IpNetDriver_92 shut down
+[2021.01.04-16.56.44:017][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-16.56.44:022][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.56.44:097][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.56.44:099][432]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024179683100), frame # 440432
+[2021.01.04-16.56.44:099][432]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002417D91CA00), frame # 440432
+[2021.01.04-16.56.44:099][432]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241FDDABB00), frame # 440432
+[2021.01.04-16.56.44:099][432]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241C8077600), frame # 440432
+[2021.01.04-16.56.44:102][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.01.04-16.56.44:200][433]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2021.01.04-16.56.44:200][433]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2021.01.04-16.56.48:350][897]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.56.48:355][897]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-16.57.03:482][659]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-16.57.03:517][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.01.04-16.57.06:669][  2]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-16.57.06:677][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.57.06:677][  2]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 16:57:06)
+[2021.01.04-16.57.06:698][  2]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.57.06:714][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015556s)
+[2021.01.04-16.57.06:715][  2]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.57.06:715][  2]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241CD91F000), frame # 443002
+[2021.01.04-16.57.06:715][  2]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241FD339D00), frame # 443002
+[2021.01.04-16.57.06:715][  2]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2021.01.04-16.57.06:715][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016572s)
+[2021.01.04-16.57.06:742][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.57.06:744][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.57.06:744][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.57.06:744][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.57.06:749][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.57.06:749][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.57.06:781][  2]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.57.06:782][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.57.06:782][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.57.06:782][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.57.06:782][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.57.06:783][  2]LogInit: FAudioDevice initialized.
+[2021.01.04-16.57.06:794][  2]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-16.57.06:796][  2]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.57.06
+[2021.01.04-16.57.06:796][  2]LogWorld: Bringing up level for play took: 0.000817
+[2021.01.04-16.57.06:796][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_129
+[2021.01.04-16.57.06:798][  2]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.57.06:798][  2]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-16.57.06:799][  2]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-16.57.06:799][  2]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-16.57.06:799][  2]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-16.57.06:799][  2]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-16.57.06:799][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.57.06:799][  2]LogNet: GameNetDriver IpNetDriver_94 IpNetDriver listening on port 17777
+[2021.01.04-16.57.06:799][  2]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-16.57.06:799][  2]PIE: Server logged in
+[2021.01.04-16.57.06:800][  2]PIE: Play in editor total start time 0,124 seconds.
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-16.57.06:801][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-16.57.06:801][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-16.57.06:801][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-16.57.06:806][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-16.57.06:806][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-16.57.06:832][  2]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-16.57.06:832][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-16.57.06:832][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-16.57.06:832][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-16.57.06:833][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-16.57.06:841][  2]LogInit: FAudioDevice initialized.
+[2021.01.04-16.57.06:872][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.57.06:872][  2]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-16.57.06:872][  2]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-16.57.06:872][  2]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-16.57.06:872][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.57.06:872][  2]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-16.57.06:874][  2]PIE: Client logged in
+[2021.01.04-16.57.06:875][  2]PIE: Play in editor total start time 0,199 seconds.
+[2021.01.04-16.57.07:892][118]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62607
+[2021.01.04-16.57.07:893][118]LogHandshake: SendConnectChallenge. Timestamp: 1.232327, Cookie: 241142202055212091203249179108249199055077160189047151033224
+[2021.01.04-16.57.07:893][118]LogHandshake: SendChallengeResponse. Timestamp: 1.232327, Cookie: 241142202055212091203249179108249199055077160189047151033224
+[2021.01.04-16.57.07:901][119]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62607
+[2021.01.04-16.57.07:901][119]LogHandshake: SendChallengeAck. InCookie: 241142202055212091203249179108249199055077160189047151033224
+[2021.01.04-16.57.07:901][119]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62607
+[2021.01.04-16.57.07:901][119]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-16.57.07:901][119]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 16:57:07, [UNetConnection] RemoteAddr: 127.0.0.1:62607, Name: IpConnection_118, Driver: GameNetDriver IpNetDriver_94, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.57.07:901][119]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62607, Name: IpConnection_118, Driver: GameNetDriver IpNetDriver_94, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.57.07:902][119]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_117, Driver: PendingNetDriver IpNetDriver_95, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-16.57.07:909][120]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-16.57.07:909][120]LogNet: Remote platform little endian=1
+[2021.01.04-16.57.07:909][120]LogNet: This platform little endian=1
+[2021.01.04-16.57.07:910][120]LogOnline: OSS: Creating online subsystem instance for: :Context_130
+[2021.01.04-16.57.07:917][121]LogNet: Login request: ?Name=AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7 userId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7 platform: NULL
+[2021.01.04-16.57.07:918][121]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-16.57.07:918][121]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-16.57.07:918][121]LogWorld: BeginTearingDown for /Temp/Untitled_60
+[2021.01.04-16.57.07:918][121]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.57.07:918][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.57.07:944][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.01.04-16.57.07:961][121]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-16.57.07:961][121]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002418611D400), frame # 443121
+[2021.01.04-16.57.07:961][121]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024181E12C00), frame # 443121
+[2021.01.04-16.57.07:964][121]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-16.57.07
+[2021.01.04-16.57.07:964][121]LogWorld: Bringing up level for play took: 0.000642
+[2021.01.04-16.57.07:964][121]LogLoad: Took 0.046011 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-16.57.07:972][122]LogNet: Client netspeed is 10000
+[2021.01.04-16.57.07:972][122]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7?SplitscreenCount=1
+[2021.01.04-16.57.07:972][122]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.57.07:972][122]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-16.57.07:973][122]LogNet: Join succeeded: AORAKI-B6B4632F46B4D
+[2021.01.04-16.57.08:259][155]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.57.08:392][171]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-16.57.09:189][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.57.09:189][262]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-16.57.09:190][262]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-16.57.09:193][262]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.57.09:193][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.57.09:198][262]LogNet: World NetDriver shutdown IpNetDriver_95 [GameNetDriver]
+[2021.01.04-16.57.09:198][262]LogNet: DestroyNamedNetDriver IpNetDriver_95 [GameNetDriver]
+[2021.01.04-16.57.09:199][262]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_117, Driver: GameNetDriver IpNetDriver_95, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7, Channels: 10, Time: 2021.01.04-16.57.09
+[2021.01.04-16.57.09:199][262]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_117, Driver: GameNetDriver IpNetDriver_95, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7
+[2021.01.04-16.57.09:199][262]LogExit: GameNetDriver IpNetDriver_95 shut down
+[2021.01.04-16.57.09:199][262]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-16.57.09:199][262]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-16.57.09:200][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.57.09:200][262]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-16.57.09:200][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.57.09:207][262]LogNet: World NetDriver shutdown IpNetDriver_94 [GameNetDriver]
+[2021.01.04-16.57.09:207][262]LogNet: DestroyNamedNetDriver IpNetDriver_94 [GameNetDriver]
+[2021.01.04-16.57.09:207][262]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:62607, Name: IpConnection_118, Driver: GameNetDriver IpNetDriver_94, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7
+[2021.01.04-16.57.09:207][262]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62607, Name: IpConnection_118, Driver: GameNetDriver IpNetDriver_94, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7, Channels: 10, Time: 2021.01.04-16.57.09
+[2021.01.04-16.57.09:207][262]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62607, Name: IpConnection_118, Driver: GameNetDriver IpNetDriver_94, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-B6B4632F46B4D68CEB02D3A191DF51A7
+[2021.01.04-16.57.09:207][262]LogExit: GameNetDriver IpNetDriver_94 shut down
+[2021.01.04-16.57.09:207][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-16.57.09:212][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-16.57.09:289][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-16.57.09:291][262]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024181E12C00), frame # 443262
+[2021.01.04-16.57.09:291][262]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002418611D400), frame # 443262
+[2021.01.04-16.57.09:291][262]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241FD339D00), frame # 443262
+[2021.01.04-16.57.09:291][262]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241CD91F000), frame # 443262
+[2021.01.04-16.57.09:294][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.01.04-16.57.09:322][263]LogPlayLevel: Display: Destroying online subsystem :Context_130
+[2021.01.04-16.57.09:322][263]LogPlayLevel: Display: Destroying online subsystem :Context_129
+[2021.01.04-17.07.12:630][358]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.01.04-17.07.12:632][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleCPP/Maps/VehicleExampleMap' took 0.032
+[2021.01.04-17.07.12:632][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Leaderboard] ([1] browsable assets)...
+[2021.01.04-17.07.12:632][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Leaderboard]
+[2021.01.04-17.07.12:646][358]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/WBP_Leaderboard_Auto489E18AEF43A0C32F0626E4B9661DBD19.tmp' to 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Leaderboard_Auto4.uasset'
+[2021.01.04-17.07.12:647][358]LogFileHelpers: Auto-saving content packages took 0.016
+[2021.01.04-17.10.34:317][549]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.10.34:983][594]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.10.36:210][736]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.12.04:361][340]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-17.12.04:402][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.01.04-17.12.30:933][495]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-17.12.30:942][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.12.30:942][495]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 17:12:30)
+[2021.01.04-17.12.30:968][495]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.12.30:984][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015923s)
+[2021.01.04-17.12.30:985][495]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.12.30:985][495]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241D7490400), frame # 544495
+[2021.01.04-17.12.30:985][495]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241EAD2CB80), frame # 544495
+[2021.01.04-17.12.30:985][495]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2021.01.04-17.12.30:985][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.017157s)
+[2021.01.04-17.12.31:014][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.12.31:016][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.12.31:016][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.12.31:017][495]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.12.31:017][495]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.12.31:022][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.12.31:022][495]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.12.31:052][495]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.12.31:053][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.12.31:053][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.12.31:053][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.12.31:053][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.12.31:061][495]LogInit: FAudioDevice initialized.
+[2021.01.04-17.12.31:071][495]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-17.12.31:073][495]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.12.31
+[2021.01.04-17.12.31:073][495]LogWorld: Bringing up level for play took: 0.000816
+[2021.01.04-17.12.31:073][495]LogOnline: OSS: Creating online subsystem instance for: :Context_131
+[2021.01.04-17.12.31:074][495]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.12.31:074][495]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-17.12.31:075][495]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-17.12.31:075][495]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-17.12.31:076][495]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-17.12.31:076][495]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-17.12.31:076][495]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.12.31:076][495]LogNet: GameNetDriver IpNetDriver_96 IpNetDriver listening on port 17777
+[2021.01.04-17.12.31:076][495]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.12.31:076][495]PIE: Server logged in
+[2021.01.04-17.12.31:077][495]PIE: Play in editor total start time 0,136 seconds.
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.12.31:078][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.12.31:078][495]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.12.31:078][495]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.12.31:083][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.12.31:083][495]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.12.31:109][495]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.12.31:110][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.12.31:110][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.12.31:110][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.12.31:110][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.12.31:118][495]LogInit: FAudioDevice initialized.
+[2021.01.04-17.12.31:146][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.12.31:146][495]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-17.12.31:146][495]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-17.12.31:146][495]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-17.12.31:146][495]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.12.31:146][495]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-17.12.31:148][495]PIE: Client logged in
+[2021.01.04-17.12.31:149][495]PIE: Play in editor total start time 0,209 seconds.
+[2021.01.04-17.12.32:160][609]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65030
+[2021.01.04-17.12.32:160][609]LogHandshake: SendConnectChallenge. Timestamp: 1.234870, Cookie: 066148156043189173083016115237212157209171224070080224215135
+[2021.01.04-17.12.32:161][609]LogHandshake: SendChallengeResponse. Timestamp: 1.234870, Cookie: 066148156043189173083016115237212157209171224070080224215135
+[2021.01.04-17.12.32:169][610]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65030
+[2021.01.04-17.12.32:169][610]LogHandshake: SendChallengeAck. InCookie: 066148156043189173083016115237212157209171224070080224215135
+[2021.01.04-17.12.32:169][610]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65030
+[2021.01.04-17.12.32:169][610]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.12.32:169][610]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 17:12:32, [UNetConnection] RemoteAddr: 127.0.0.1:65030, Name: IpConnection_120, Driver: GameNetDriver IpNetDriver_96, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.12.32:169][610]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65030, Name: IpConnection_120, Driver: GameNetDriver IpNetDriver_96, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.12.32:170][610]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_119, Driver: PendingNetDriver IpNetDriver_97, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.12.32:177][611]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-17.12.32:177][611]LogNet: Remote platform little endian=1
+[2021.01.04-17.12.32:177][611]LogNet: This platform little endian=1
+[2021.01.04-17.12.32:178][611]LogOnline: OSS: Creating online subsystem instance for: :Context_132
+[2021.01.04-17.12.32:185][612]LogNet: Login request: ?Name=AORAKI-F7AEA09345C37788D3EFCCB543B23185 userId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185 platform: NULL
+[2021.01.04-17.12.32:186][612]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-17.12.32:186][612]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-17.12.32:186][612]LogWorld: BeginTearingDown for /Temp/Untitled_61
+[2021.01.04-17.12.32:186][612]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.12.32:186][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.12.32:213][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.01.04-17.12.32:232][612]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.12.32:232][612]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241DA1DB600), frame # 544612
+[2021.01.04-17.12.32:232][612]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241E24A5440), frame # 544612
+[2021.01.04-17.12.32:234][612]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.12.32
+[2021.01.04-17.12.32:234][612]LogWorld: Bringing up level for play took: 0.000616
+[2021.01.04-17.12.32:234][612]LogLoad: Took 0.048557 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-17.12.32:242][613]LogNet: Client netspeed is 10000
+[2021.01.04-17.12.32:242][613]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-F7AEA09345C37788D3EFCCB543B23185?SplitscreenCount=1
+[2021.01.04-17.12.32:242][613]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.12.32:243][613]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-17.12.32:243][613]LogNet: Join succeeded: AORAKI-F7AEA09345C37
+[2021.01.04-17.12.32:414][632]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.32:514][644]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.12.32:564][650]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.12.33:139][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.34:063][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.35:030][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.37:249][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.37:857][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.39:157][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.40:466][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.41:266][577]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.12.42:619][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.12.42:619][735]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-17.12.42:620][735]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-17.12.42:623][735]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.12.42:623][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.12.42:629][735]LogNet: World NetDriver shutdown IpNetDriver_97 [GameNetDriver]
+[2021.01.04-17.12.42:629][735]LogNet: DestroyNamedNetDriver IpNetDriver_97 [GameNetDriver]
+[2021.01.04-17.12.42:629][735]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_119, Driver: GameNetDriver IpNetDriver_97, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185, Channels: 11, Time: 2021.01.04-17.12.42
+[2021.01.04-17.12.42:629][735]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_119, Driver: GameNetDriver IpNetDriver_97, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185
+[2021.01.04-17.12.42:630][735]LogExit: GameNetDriver IpNetDriver_97 shut down
+[2021.01.04-17.12.42:630][735]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.12.42:630][735]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-17.12.42:630][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.12.42:630][735]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.12.42:631][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.12.42:637][735]LogNet: World NetDriver shutdown IpNetDriver_96 [GameNetDriver]
+[2021.01.04-17.12.42:637][735]LogNet: DestroyNamedNetDriver IpNetDriver_96 [GameNetDriver]
+[2021.01.04-17.12.42:638][735]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65030, Name: IpConnection_120, Driver: GameNetDriver IpNetDriver_96, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185
+[2021.01.04-17.12.42:638][735]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65030, Name: IpConnection_120, Driver: GameNetDriver IpNetDriver_96, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185, Channels: 11, Time: 2021.01.04-17.12.42
+[2021.01.04-17.12.42:638][735]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65030, Name: IpConnection_120, Driver: GameNetDriver IpNetDriver_96, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-F7AEA09345C37788D3EFCCB543B23185
+[2021.01.04-17.12.42:638][735]LogExit: GameNetDriver IpNetDriver_96 shut down
+[2021.01.04-17.12.42:638][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-17.12.42:643][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.12.42:717][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.12.42:719][735]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241E24A5440), frame # 545735
+[2021.01.04-17.12.42:719][735]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241DA1DB600), frame # 545735
+[2021.01.04-17.12.42:719][735]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241EAD2CB80), frame # 545735
+[2021.01.04-17.12.42:719][735]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241D7490400), frame # 545735
+[2021.01.04-17.12.42:722][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.01.04-17.12.42:811][736]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2021.01.04-17.12.42:811][736]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2021.01.04-17.12.47:463][256]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-17.12.47:469][256]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-17.13.56:392][390]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-17.13.56:430][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.01.04-17.13.58:384][592]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-17.13.58:393][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.13.58:393][592]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 17:13:58)
+[2021.01.04-17.13.58:418][592]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.13.58:434][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015405s)
+[2021.01.04-17.13.58:435][592]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.13.58:435][592]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241E972BE00), frame # 554592
+[2021.01.04-17.13.58:435][592]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241E24A65C0), frame # 554592
+[2021.01.04-17.13.58:435][592]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2021.01.04-17.13.58:435][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016521s)
+[2021.01.04-17.13.58:464][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.13.58:465][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.13.58:465][592]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.13.58:465][592]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.13.58:471][592]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.13.58:471][592]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.13.58:502][592]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.13.58:502][592]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.13.58:502][592]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.13.58:502][592]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.13.58:502][592]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.13.58:511][592]LogInit: FAudioDevice initialized.
+[2021.01.04-17.13.58:519][592]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-17.13.58:521][592]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.13.58
+[2021.01.04-17.13.58:521][592]LogWorld: Bringing up level for play took: 0.000802
+[2021.01.04-17.13.58:521][592]LogOnline: OSS: Creating online subsystem instance for: :Context_133
+[2021.01.04-17.13.58:522][592]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.13.58:523][592]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-17.13.58:524][592]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-17.13.58:524][592]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-17.13.58:524][592]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-17.13.58:524][592]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-17.13.58:524][592]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.13.58:524][592]LogNet: GameNetDriver IpNetDriver_98 IpNetDriver listening on port 17777
+[2021.01.04-17.13.58:524][592]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.13.58:524][592]PIE: Server logged in
+[2021.01.04-17.13.58:525][592]PIE: Play in editor total start time 0,133 seconds.
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.13.58:526][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.13.58:526][592]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.13.58:526][592]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.13.58:531][592]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.13.58:531][592]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.13.58:557][592]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.13.58:557][592]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.13.58:557][592]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.13.58:557][592]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.13.58:558][592]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.13.58:566][592]LogInit: FAudioDevice initialized.
+[2021.01.04-17.13.58:591][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.13.58:591][592]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-17.13.58:592][592]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-17.13.58:592][592]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-17.13.58:592][592]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.13.58:592][592]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-17.13.58:593][592]PIE: Client logged in
+[2021.01.04-17.13.58:595][592]PIE: Play in editor total start time 0,203 seconds.
+[2021.01.04-17.13.59:329][674]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.13.59:603][707]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49237
+[2021.01.04-17.13.59:604][707]LogHandshake: SendConnectChallenge. Timestamp: 1.227501, Cookie: 173213023206062186074164193170050231202246074158116232166063
+[2021.01.04-17.13.59:604][707]LogHandshake: SendChallengeResponse. Timestamp: 1.227501, Cookie: 173213023206062186074164193170050231202246074158116232166063
+[2021.01.04-17.13.59:612][708]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49237
+[2021.01.04-17.13.59:612][708]LogHandshake: SendChallengeAck. InCookie: 173213023206062186074164193170050231202246074158116232166063
+[2021.01.04-17.13.59:612][708]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49237
+[2021.01.04-17.13.59:612][708]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.13.59:612][708]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 17:13:59, [UNetConnection] RemoteAddr: 127.0.0.1:49237, Name: IpConnection_122, Driver: GameNetDriver IpNetDriver_98, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.13.59:612][708]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49237, Name: IpConnection_122, Driver: GameNetDriver IpNetDriver_98, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.13.59:613][708]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_121, Driver: PendingNetDriver IpNetDriver_99, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.13.59:620][709]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-17.13.59:620][709]LogNet: Remote platform little endian=1
+[2021.01.04-17.13.59:620][709]LogNet: This platform little endian=1
+[2021.01.04-17.13.59:621][709]LogOnline: OSS: Creating online subsystem instance for: :Context_134
+[2021.01.04-17.13.59:629][710]LogNet: Login request: ?Name=AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620 userId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620 platform: NULL
+[2021.01.04-17.13.59:629][710]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-17.13.59:629][710]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-17.13.59:629][710]LogWorld: BeginTearingDown for /Temp/Untitled_62
+[2021.01.04-17.13.59:629][710]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.13.59:629][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.13.59:655][710]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.01.04-17.13.59:672][710]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.13.59:672][710]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002414E899200), frame # 554710
+[2021.01.04-17.13.59:672][710]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241DD6756C0), frame # 554710
+[2021.01.04-17.13.59:675][710]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.13.59
+[2021.01.04-17.13.59:675][710]LogWorld: Bringing up level for play took: 0.000596
+[2021.01.04-17.13.59:675][710]LogLoad: Took 0.045771 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-17.13.59:682][711]LogNet: Client netspeed is 10000
+[2021.01.04-17.13.59:682][711]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620?SplitscreenCount=1
+[2021.01.04-17.13.59:683][711]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.13.59:683][711]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-17.13.59:684][711]LogNet: Join succeeded: AORAKI-D88B35DB4FAFC
+[2021.01.04-17.14.00:021][750]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.14.00:062][755]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.14.00:145][765]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.14.00:862][848]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.14.01:872][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_1". Blueprint:  WBP_Leaderboard Function:  Update Values Graph:  UpdateValues Node:  Branch
+[2021.01.04-17.14.03:270][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.14.03:270][129]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-17.14.03:271][129]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-17.14.03:274][129]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.14.03:274][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.14.03:281][129]LogNet: World NetDriver shutdown IpNetDriver_99 [GameNetDriver]
+[2021.01.04-17.14.03:281][129]LogNet: DestroyNamedNetDriver IpNetDriver_99 [GameNetDriver]
+[2021.01.04-17.14.03:281][129]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_121, Driver: GameNetDriver IpNetDriver_99, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620, Channels: 10, Time: 2021.01.04-17.14.03
+[2021.01.04-17.14.03:281][129]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_121, Driver: GameNetDriver IpNetDriver_99, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620
+[2021.01.04-17.14.03:282][129]LogExit: GameNetDriver IpNetDriver_99 shut down
+[2021.01.04-17.14.03:282][129]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.14.03:282][129]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-17.14.03:282][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.14.03:283][129]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.14.03:283][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.14.03:290][129]LogNet: World NetDriver shutdown IpNetDriver_98 [GameNetDriver]
+[2021.01.04-17.14.03:290][129]LogNet: DestroyNamedNetDriver IpNetDriver_98 [GameNetDriver]
+[2021.01.04-17.14.03:290][129]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49237, Name: IpConnection_122, Driver: GameNetDriver IpNetDriver_98, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620
+[2021.01.04-17.14.03:290][129]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49237, Name: IpConnection_122, Driver: GameNetDriver IpNetDriver_98, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620, Channels: 10, Time: 2021.01.04-17.14.03
+[2021.01.04-17.14.03:290][129]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49237, Name: IpConnection_122, Driver: GameNetDriver IpNetDriver_98, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-D88B35DB4FAFC2CE54253F83ECD5B620
+[2021.01.04-17.14.03:290][129]LogExit: GameNetDriver IpNetDriver_98 shut down
+[2021.01.04-17.14.03:290][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-17.14.03:295][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.14.03:363][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.14.03:365][129]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241DD6756C0), frame # 555129
+[2021.01.04-17.14.03:365][129]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002414E899200), frame # 555129
+[2021.01.04-17.14.03:365][129]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241E24A65C0), frame # 555129
+[2021.01.04-17.14.03:365][129]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241E972BE00), frame # 555129
+[2021.01.04-17.14.03:368][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.01.04-17.14.03:464][130]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2021.01.04-17.14.03:464][130]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2021.01.04-17.14.05:026][297]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-17.14.05:033][297]LogSlate: Window 'Message Log' being destroyed
+[2021.01.04-17.17.12:896][550]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.14:082][658]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-17.17.14:379][690]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.14:586][712]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.14:777][732]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.14:947][750]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.15:097][766]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.15:259][783]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.15:559][816]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.15:723][833]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.15:898][852]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.16:090][872]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.16:277][892]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.16:444][910]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.16:622][929]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.16:795][947]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.16:978][967]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.17:170][988]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.17:353][  7]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.17:532][ 26]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.17:745][ 49]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-17.17.17:928][ 68]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.18:124][ 89]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-17.17.18:312][109]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.18:515][131]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.18:706][152]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.18:927][176]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.19:101][194]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.19:849][281]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.20:009][298]LogEditorTransaction: Undo Delete current selection
+[2021.01.04-17.17.20:155][312]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.20:280][324]LogEditorTransaction: Undo Rename Variable
+[2021.01.04-17.17.20:406][336]LogEditorTransaction: Undo Change Parameter Type
+[2021.01.04-17.17.20:523][346]LogEditorTransaction: Undo Add Local Variable
+[2021.01.04-17.17.20:647][358]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.20:774][371]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.20:882][382]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.21:007][395]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.21:127][407]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.21:251][420]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.21:403][435]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.21:683][466]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.21:953][496]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.22:201][524]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.22:368][542]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.22:509][557]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.22:658][573]LogEditorTransaction: Undo Move Nodes
+[2021.01.04-17.17.22:785][585]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.22:945][602]LogEditorTransaction: Undo Break Pin Link
+[2021.01.04-17.17.23:088][617]LogEditorTransaction: Undo Break Pin Link
+[2021.01.04-17.17.23:246][634]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.23:411][651]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.23:562][667]LogEditorTransaction: Undo Move Nodes
+[2021.01.04-17.17.23:714][683]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.23:859][698]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.23:997][712]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.24:154][729]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.24:303][744]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.24:467][761]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.24:700][787]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.24:911][810]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.25:137][835]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.25:510][878]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.25:783][909]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.26:106][946]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.26:396][979]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.26:736][ 18]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-17.17.26:970][ 44]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.27:240][ 74]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.27:520][105]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.27:826][140]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.28:174][180]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.28:548][223]LogEditorTransaction: Undo Move Nodes
+[2021.01.04-17.17.29:816][373]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.30:272][425]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.31:539][575]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.32:153][647]LogEditorTransaction: Undo Move Node
+[2021.01.04-17.17.32:654][705]LogEditorTransaction: Undo Add Node
+[2021.01.04-17.17.35:412][ 28]BlueprintLog: New page: Compile WBP_Leaderboard
+[2021.01.04-17.17.35:458][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.01.04-17.17.36:633][150]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.04-17.17.36:642][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.17.36:642][150]PIE: New page: PIE session: VehicleExampleMap (4 janv. 2021 à 17:17:36)
+[2021.01.04-17.17.36:678][150]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.17.36:694][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016340s)
+[2021.01.04-17.17.36:695][150]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.17.36:695][150]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241D7490A00), frame # 580150
+[2021.01.04-17.17.36:695][150]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241FD1B0CC0), frame # 580150
+[2021.01.04-17.17.36:695][150]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2021.01.04-17.17.36:695][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.017444s)
+[2021.01.04-17.17.36:724][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.17.36:725][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.17.36:725][150]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.17.36:725][150]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.17.36:731][150]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.17.36:731][150]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.17.36:762][150]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.17.36:762][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.17.36:762][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.17.36:762][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.17.36:763][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.17.36:771][150]LogInit: FAudioDevice initialized.
+[2021.01.04-17.17.36:779][150]LogLoad: Game class is 'BP_VehicleTemplateGameMode_C'
+[2021.01.04-17.17.36:781][150]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.17.36
+[2021.01.04-17.17.36:781][150]LogWorld: Bringing up level for play took: 0.000794
+[2021.01.04-17.17.36:781][150]LogOnline: OSS: Creating online subsystem instance for: :Context_135
+[2021.01.04-17.17.36:782][150]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.17.36:783][150]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_0: 0
+[2021.01.04-17.17.36:783][150]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.01.04-17.17.36:784][150]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.01.04-17.17.36:784][150]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.01.04-17.17.36:784][150]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.01.04-17.17.36:784][150]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.17.36:784][150]LogNet: GameNetDriver IpNetDriver_100 IpNetDriver listening on port 17777
+[2021.01.04-17.17.36:784][150]LogTemp: Warning: PlayerStarts Count: 12
+[2021.01.04-17.17.36:784][150]PIE: Server logged in
+[2021.01.04-17.17.36:785][150]PIE: Play in editor total start time 0,143 seconds.
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.04-17.17.36:786][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.04-17.17.36:786][150]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.04-17.17.36:786][150]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.04-17.17.36:791][150]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.04-17.17.36:791][150]LogAudioMixer: Display: 1: FrontRight
+[2021.01.04-17.17.36:817][150]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.01.04-17.17.36:817][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.04-17.17.36:817][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.04-17.17.36:817][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.04-17.17.36:817][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.04-17.17.36:825][150]LogInit: FAudioDevice initialized.
+[2021.01.04-17.17.36:851][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.17.36:851][150]LogNet: Browse: 127.0.0.1:17777/Game/VehicleCPP/Maps/VehicleExampleMap
+[2021.01.04-17.17.36:851][150]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.01.04-17.17.36:851][150]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.01.04-17.17.36:851][150]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.17.36:851][150]LogNet: Game client on port 17777, rate 10000
+[2021.01.04-17.17.36:853][150]PIE: Client logged in
+[2021.01.04-17.17.36:854][150]PIE: Play in editor total start time 0,213 seconds.
+[2021.01.04-17.17.37:861][265]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54402
+[2021.01.04-17.17.37:861][265]LogHandshake: SendConnectChallenge. Timestamp: 1.235035, Cookie: 199104236151175225240137017049192021044019003085128057082140
+[2021.01.04-17.17.37:862][265]LogHandshake: SendChallengeResponse. Timestamp: 1.235035, Cookie: 199104236151175225240137017049192021044019003085128057082140
+[2021.01.04-17.17.37:869][266]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54402
+[2021.01.04-17.17.37:869][266]LogHandshake: SendChallengeAck. InCookie: 199104236151175225240137017049192021044019003085128057082140
+[2021.01.04-17.17.37:870][266]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54402
+[2021.01.04-17.17.37:870][266]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.04-17.17.37:870][266]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/04/21 17:17:37, [UNetConnection] RemoteAddr: 127.0.0.1:54402, Name: IpConnection_124, Driver: GameNetDriver IpNetDriver_100, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.17.37:870][266]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54402, Name: IpConnection_124, Driver: GameNetDriver IpNetDriver_100, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.17.37:870][266]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_123, Driver: PendingNetDriver IpNetDriver_101, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.01.04-17.17.37:878][267]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap: Accepted
+[2021.01.04-17.17.37:878][267]LogNet: Remote platform little endian=1
+[2021.01.04-17.17.37:878][267]LogNet: This platform little endian=1
+[2021.01.04-17.17.37:878][267]LogOnline: OSS: Creating online subsystem instance for: :Context_136
+[2021.01.04-17.17.37:886][268]LogNet: Login request: ?Name=AORAKI-6EC610754300804888E7E7A8C5817F32 userId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32 platform: NULL
+[2021.01.04-17.17.37:887][268]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap, Game: /Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C)
+[2021.01.04-17.17.37:887][268]LogLoad: LoadMap: 127.0.0.1:17777/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap?game=/Game/Blueprints/GameModes/BP_VehicleTemplateGameMode.BP_VehicleTemplateGameMode_C
+[2021.01.04-17.17.37:887][268]LogWorld: BeginTearingDown for /Temp/Untitled_63
+[2021.01.04-17.17.37:887][268]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.17.37:887][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.17.37:914][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.01.04-17.17.37:934][268]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2021.01.04-17.17.37:934][268]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000241E52CE000), frame # 580268
+[2021.01.04-17.17.37:934][268]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000241DA2C1440), frame # 580268
+[2021.01.04-17.17.37:936][268]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2021.01.04-17.17.37
+[2021.01.04-17.17.37:936][268]LogWorld: Bringing up level for play took: 0.000637
+[2021.01.04-17.17.37:937][268]LogLoad: Took 0.049882 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap)
+[2021.01.04-17.17.37:944][269]LogNet: Client netspeed is 10000
+[2021.01.04-17.17.37:944][269]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=AORAKI-6EC610754300804888E7E7A8C5817F32?SplitscreenCount=1
+[2021.01.04-17.17.37:944][269]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.17.37:945][269]LogTemp: Warning: FindPlayerStart for BP_MyPlayerController_C_1: 1
+[2021.01.04-17.17.37:946][269]LogNet: Join succeeded: AORAKI-6EC6107543008
+[2021.01.04-17.17.38:249][304]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.17.38:324][313]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.01.04-17.17.39:930][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.17.39:930][498]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2021.01.04-17.17.39:931][498]LogSlate: Window 'VehicleTemplate Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2021.01.04-17.17.39:934][498]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.17.39:934][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.17.39:943][498]LogNet: World NetDriver shutdown IpNetDriver_101 [GameNetDriver]
+[2021.01.04-17.17.39:943][498]LogNet: DestroyNamedNetDriver IpNetDriver_101 [GameNetDriver]
+[2021.01.04-17.17.39:943][498]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_123, Driver: GameNetDriver IpNetDriver_101, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32, Channels: 10, Time: 2021.01.04-17.17.39
+[2021.01.04-17.17.39:943][498]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_123, Driver: GameNetDriver IpNetDriver_101, IsServer: NO, PC: BP_MyPlayerController_C_0, Owner: BP_MyPlayerController_C_0, UniqueId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32
+[2021.01.04-17.17.39:943][498]LogExit: GameNetDriver IpNetDriver_101 shut down
+[2021.01.04-17.17.39:944][498]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2021.01.04-17.17.39:944][498]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.01.04-17.17.39:944][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.17.39:944][498]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.04-17.17.39:945][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.17.39:951][498]LogNet: World NetDriver shutdown IpNetDriver_100 [GameNetDriver]
+[2021.01.04-17.17.39:951][498]LogNet: DestroyNamedNetDriver IpNetDriver_100 [GameNetDriver]
+[2021.01.04-17.17.39:952][498]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:54402, Name: IpConnection_124, Driver: GameNetDriver IpNetDriver_100, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32
+[2021.01.04-17.17.39:952][498]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54402, Name: IpConnection_124, Driver: GameNetDriver IpNetDriver_100, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32, Channels: 10, Time: 2021.01.04-17.17.39
+[2021.01.04-17.17.39:952][498]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54402, Name: IpConnection_124, Driver: GameNetDriver IpNetDriver_100, IsServer: YES, PC: BP_MyPlayerController_C_1, Owner: BP_MyPlayerController_C_1, UniqueId: NULL:AORAKI-6EC610754300804888E7E7A8C5817F32
+[2021.01.04-17.17.39:952][498]LogExit: GameNetDriver IpNetDriver_100 shut down
+[2021.01.04-17.17.39:952][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.04-17.17.39:957][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.04-17.17.40:029][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.04-17.17.40:031][498]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241DA2C1440), frame # 580498
+[2021.01.04-17.17.40:031][498]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241E52CE000), frame # 580498
+[2021.01.04-17.17.40:031][498]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000241FD1B0CC0), frame # 580498
+[2021.01.04-17.17.40:031][498]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000241D7490A00), frame # 580498
+[2021.01.04-17.17.40:034][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.01.04-17.17.40:068][499]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2021.01.04-17.17.40:068][499]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2021.01.04-17.18.16:348][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Leaderboard" FILE="S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Content/Blueprints/Widgets/WBP_Leaderboard.uasset" SILENT=true
+[2021.01.04-17.18.16:360][903]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Saved/WBP_LeaderboardA5789833420E2E180B7B68B661EF4CE3.tmp' to 'S:/Users/Liamk/Development/Games/Sacrifice/VehicleTemplate/Content/Blueprints/Widgets/WBP_Leaderboard.uasset'
+[2021.01.04-17.18.16:376][903]AssetCheck: New page: Asset Save: WBP_Leaderboard
+[2021.01.04-17.18.16:376][903]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Leaderboard.WBP_Leaderboard
