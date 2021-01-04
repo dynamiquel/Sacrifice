@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "Components/Widget.h"
 #include "GameFramework/PlayerController.h"
 #include "MyPlayerController.generated.h"
 
@@ -16,4 +18,13 @@ class VEHICLETEMPLATE_API AMyPlayerController : public APlayerController
 
 	public:
 	void SetPlayerEnabledState(bool SetPlayerEnabled);
+
+	protected:	
+	virtual void SetupInputComponent() override;
+
+	// UI is implemented in Blueprints since it works better than C++.
+	UFUNCTION(BlueprintImplementableEvent)
+	void OpenLeaderboard();
+	UFUNCTION(BlueprintImplementableEvent)
+    void CloseLeaderboard();
 };

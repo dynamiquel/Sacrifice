@@ -10,3 +10,11 @@ void AMyPlayerController::SetPlayerEnabledState(bool SetPlayerEnabled)
     else
         GetPawn()->DisableInput(this);
 }
+
+void AMyPlayerController::SetupInputComponent()
+{
+    Super::SetupInputComponent();
+    
+    InputComponent->BindAction("Leaderboard", IE_Pressed, this, &AMyPlayerController::OpenLeaderboard);
+    InputComponent->BindAction("Leaderboard", IE_Released, this, &AMyPlayerController::CloseLeaderboard);
+}

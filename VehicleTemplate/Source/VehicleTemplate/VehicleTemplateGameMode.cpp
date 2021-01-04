@@ -25,16 +25,20 @@ void AVehicleTemplateGameMode::BeginPlay()
 
 void AVehicleTemplateGameMode::HandleGameStart()
 {
+	// Finds all the player controllers.
 	TArray<AActor*> PlayerControllers;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMyPlayerController::StaticClass(), PlayerControllers);
-	
+
+	// Calls the Blueprint version of this function.
 	GameStart();
 	
 	for (AActor* PlayerController : PlayerControllers)
 	{
 		AMyPlayerController* PlayerControllerRef = Cast<AMyPlayerController>(PlayerController);
+		// Disables the pawn from user movement.
 		PlayerControllerRef->SetPlayerEnabledState(false);
 
+		// Starts a timer which enables pawn user movement when it has ended.
 		FTimerHandle PlayerEnableHandle;
 		FTimerDelegate PlayerEnableDelegate = FTimerDelegate::CreateUObject(PlayerControllerRef,
 			&AMyPlayerController::SetPlayerEnabledState, true);
