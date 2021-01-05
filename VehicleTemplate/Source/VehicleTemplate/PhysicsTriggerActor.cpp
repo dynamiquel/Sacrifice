@@ -5,8 +5,11 @@
 
 
 #include "MyPlayerState.h"
+#include "VehicleTemplateGameMode.h"
 #include "WheeledVehicle.h"
 #include "Kismet/GameplayStatics.h"
+#include "GameFramework/GameState.h"
+
 
 // Sets default values
 APhysicsTriggerActor::APhysicsTriggerActor()
@@ -31,10 +34,10 @@ void APhysicsTriggerActor::Tick(float DeltaTime)
 	
 	if (GetActorLocation().Z <= -15.f)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Orange, TEXT("Falling"));
+		//GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Orange, TEXT("Falling"));
 	}
 
-	// I can't seem to get round the issue where the second player cannot retrieve its PlayerState in BeginPlay.
+	// I can't seem to get round the issue where the non-host player cannot retrieve its PlayerState in BeginPlay.
 	// This method keeps attempting to get the PlayerState.
 	if (!PlayerState)
 		FindPlayerState();
@@ -45,14 +48,14 @@ void APhysicsTriggerActor::FindPlayerState()
 	AWheeledVehicle* ThisVehicle = Cast<AWheeledVehicle>(GetParentActor());
 	if (!ThisVehicle)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Red, TEXT("Unable to get Parent"));
+		UE_LOG(LogTemp, Warning, TEXT("Unable to get Parent for %s"), *GetName());
 		return;
 	}
 		
 	PlayerState = ThisVehicle->GetPlayerState<AMyPlayerState>();
 
 	if (PlayerState)
-		GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Red, TEXT("Retrieved PlayerState"));
+		UE_LOG(LogTemp, Log, TEXT("Retrieved PlayerState for %s"), *ThisVehicle->GetName());
 }
 
 void APhysicsTriggerActor::ReceiveHit(AWheeledVehicle* OtherVehicle)
@@ -80,34 +83,25 @@ void APhysicsTriggerActor::OnDestroy()
 		return;
 	
 	FString DeathText;
+	AMyGameState* GameState = Cast<AMyGameState>(GetWorld()->GetGameState());
+	AVehicleTemplateGameMode* GameMode = Cast<AVehicleTemplateGameMode>(GameState->GameModeClass);
 	
 	// Checks if this vehicle was hit by another several seconds ago.
-	if (LastOffender && (FDateTime().UtcNow() - LastHit).GetTotalSeconds()  <= 10.f)
+	if (LastOffender && (FDateTime().UtcNow() - LastHit).GetTotalSeconds()  <= 7.f)
 	{
 		AMyPlayerState* EnemyPlayerState = LastOffender->GetPlayerState<AMyPlayerState>();
 		if (!EnemyPlayerState)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Red, TEXT("Unable to get PlayerState"));
+			UE_LOG(LogTemp, Warning, TEXT("Unable to get PlayerState for %s"), *LastOffender->GetName());
 		}
 		else
 		{
-			// Gives the enemy one point.
-			EnemyPlayerState->SetScore(EnemyPlayerState->GetScore() + 1.f);
-
-			DeathText = FString::Printf(TEXT("%s killed %s (%d points)"),
-                *EnemyPlayerState->GetPlayerName(), *PlayerState->GetPlayerName(), (int)EnemyPlayerState->GetScore());
+			GameMode->HandlePlayerDeath(PlayerState, EnemyPlayerState, GameState);
 		}
 	}
 	else /* suicide */
 	{
-		// Removes one point from this player.
-		PlayerState->SetScore(PlayerState->GetScore() - 1.f);
-
-		DeathText = FString::Printf(TEXT("%s committed suicide! (%d points)"),
-			*PlayerState->GetPlayerName(), (int)PlayerState->GetScore());
+		GameMode->HandlePlayerDeath(PlayerState, PlayerState, GameState);
 	}
-
-	// Outputs the death and the reason for it.
-	GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Orange, DeathText);
 }
 

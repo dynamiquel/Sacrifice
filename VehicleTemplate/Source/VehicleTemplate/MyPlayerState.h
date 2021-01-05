@@ -13,5 +13,7 @@ UCLASS()
 class VEHICLETEMPLATE_API AMyPlayerState : public APlayerState
 {
 	GENERATED_BODY()
-	
+
+    public:
+    bool IsDead = false;
 };

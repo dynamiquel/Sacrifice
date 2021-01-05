@@ -9697,6 +9697,154 @@
         </e>
       </e>
     </e>
+    <e p="D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\LowEntryExtStdLib" t="Include">
+      <e p="LowEntryExtStdLib.uplugin" t="Include" />
+      <e p="Resources" t="Include">
+        <e p="Icon128.png" t="Include" />
+      </e>
+      <e p="Source" t="Include">
+        <e p="LowEntryExtendedStandardLibrary" t="Include">
+          <e p="LowEntryExtendedStandardLibrary.Build.cs" t="Include" />
+          <e p="Private" t="Include">
+            <e p="Classes" t="Include">
+              <e p="LowEntryBitDataEntry.cpp" t="Include" />
+              <e p="LowEntryBitDataReader.cpp" t="Include" />
+              <e p="LowEntryBitDataWriter.cpp" t="Include" />
+              <e p="LowEntryByteArray.cpp" t="Include" />
+              <e p="LowEntryByteDataEntry.cpp" t="Include" />
+              <e p="LowEntryByteDataReader.cpp" t="Include" />
+              <e p="LowEntryByteDataWriter.cpp" t="Include" />
+              <e p="LowEntryExecutionQueue.cpp" t="Include" />
+              <e p="LowEntryExtendedStandardLibrary.cpp" t="Include" />
+              <e p="LowEntryHashingBCryptLibrary.cpp" t="Include" />
+              <e p="LowEntryHashingHashcashLibrary.cpp" t="Include" />
+              <e p="LowEntryHashingPearsonLibrary.cpp" t="Include" />
+              <e p="LowEntryHashingSha256Library.cpp" t="Include" />
+              <e p="LowEntryHashingSha512Library.cpp" t="Include" />
+              <e p="LowEntryParsedHashcash.cpp" t="Include" />
+            </e>
+            <e p="ClassesLatentAction" t="Include">
+              <e p="LowEntryLatentActionBoolean.cpp" t="Include" />
+              <e p="LowEntryLatentActionFloat.cpp" t="Include" />
+              <e p="LowEntryLatentActionInteger.cpp" t="Include" />
+              <e p="LowEntryLatentActionNone.cpp" t="Include" />
+              <e p="LowEntryLatentActionObject.cpp" t="Include" />
+              <e p="LowEntryLatentActionString.cpp" t="Include" />
+            </e>
+            <e p="ClassesTypes" t="Include">
+              <e p="LowEntryDouble.cpp" t="Include" />
+              <e p="LowEntryLong.cpp" t="Include" />
+            </e>
+            <e p="Module" t="Include">
+              <e p="LowEntryExtendedStandardLibraryModule.cpp" t="Include" />
+              <e p="LowEntryExtendedStandardLibraryModule.h" t="Include" />
+              <e p="LowEntryExtendedStandardLibraryPrivatePCH.h" t="Include" />
+            </e>
+          </e>
+          <e p="Public" t="Include">
+            <e p="Classes" t="Include">
+              <e p="ELowEntryBatteryState.h" t="Include" />
+              <e p="ELowEntryExtendedStandardLibrary0to9.h" t="Include" />
+              <e p="ELowEntryExtendedStandardLibrary1to10other.h" t="Include" />
+              <e p="ELowEntryExtendedStandardLibraryTrueOrFalse.h" t="Include" />
+              <e p="ELowEntryHmacAlgorithm.h" t="Include" />
+              <e p="ELowEntryImageFormat.h" t="Include" />
+              <e p="ELowEntryRGBFormat.h" t="Include" />
+              <e p="ELowEntrySplitScreenType.h" t="Include" />
+              <e p="ELowEntrySplitScreenTypeThreePlayers.h" t="Include" />
+              <e p="ELowEntrySplitScreenTypeTwoPlayers.h" t="Include" />
+              <e p="FLowEntryRegexCaptureGroup.h" t="Include" />
+              <e p="FLowEntryRegexMatch.h" t="Include" />
+              <e p="LowEntryBitDataEntry.h" t="Include" />
+              <e p="LowEntryBitDataReader.h" t="Include" />
+              <e p="LowEntryBitDataWriter.h" t="Include" />
+              <e p="LowEntryByteArray.h" t="Include" />
+              <e p="LowEntryByteDataEntry.h" t="Include" />
+              <e p="LowEntryByteDataReader.h" t="Include" />
+              <e p="LowEntryByteDataWriter.h" t="Include" />
+              <e p="LowEntryExecutionQueue.h" t="Include" />
+              <e p="LowEntryExtendedStandardLibrary.h" t="Include" />
+              <e p="LowEntryHashingBCryptLibrary.h" t="Include" />
+              <e p="LowEntryHashingHashcashLibrary.h" t="Include" />
+              <e p="LowEntryHashingPearsonLibrary.h" t="Include" />
+              <e p="LowEntryHashingSha256Library.h" t="Include" />
+              <e p="LowEntryHashingSha512Library.h" t="Include" />
+              <e p="LowEntryParsedHashcash.h" t="Include" />
+            </e>
+            <e p="ClassesLatentAction" t="Include">
+              <e p="LowEntryLatentActionBoolean.h" t="Include" />
+              <e p="LowEntryLatentActionFloat.h" t="Include" />
+              <e p="LowEntryLatentActionInteger.h" t="Include" />
+              <e p="LowEntryLatentActionNone.h" t="Include" />
+              <e p="LowEntryLatentActionObject.h" t="Include" />
+              <e p="LowEntryLatentActionString.h" t="Include" />
+            </e>
+            <e p="ClassesTypes" t="Include">
+              <e p="LowEntryDouble.h" t="Include" />
+              <e p="LowEntryLong.h" t="Include" />
+            </e>
+            <e p="FClassesDelay" t="Include">
+              <e p="FLowEntryDelayFramesAction.h" t="Include" />
+            </e>
+            <e p="FClassesExecutionQueue" t="Include">
+              <e p="FLowEntryExecutionQueueAction.h" t="Include" />
+            </e>
+            <e p="FClassesLatentAction" t="Include">
+              <e p="FLowEntryLatentActionBoolean.h" t="Include" />
+              <e p="FLowEntryLatentActionFloat.h" t="Include" />
+              <e p="FLowEntryLatentActionInteger.h" t="Include" />
+              <e p="FLowEntryLatentActionNone.h" t="Include" />
+              <e p="FLowEntryLatentActionObject.h" t="Include" />
+              <e p="FLowEntryLatentActionString.h" t="Include" />
+            </e>
+            <e p="FClassesTick" t="Include">
+              <e p="FLowEntryTickFrames.h" t="Include" />
+              <e p="FLowEntryTickSeconds.h" t="Include" />
+            </e>
+            <e p="Module" t="Include">
+              <e p="ILowEntryExtendedStandardLibraryModule.h" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="LowEntryExtendedStandardLibraryEditor" t="Include">
+          <e p="LowEntryExtendedStandardLibraryEditor.Build.cs" t="Include" />
+          <e p="Private" t="Include">
+            <e p="Classes" t="Include">
+              <e p="K2Node_LowEntry_CreateBitDataWriter.cpp" t="Include" />
+              <e p="K2Node_LowEntry_CreateBitDataWriterPure.cpp" t="Include" />
+              <e p="K2Node_LowEntry_CreateByteDataWriter.cpp" t="Include" />
+              <e p="K2Node_LowEntry_CreateByteDataWriterPure.cpp" t="Include" />
+              <e p="K2Node_LowEntry_LocalVariable.cpp" t="Include" />
+              <e p="K2Node_LowEntry_MakeContainer.cpp" t="Include" />
+              <e p="K2Node_LowEntry_MakeCustomArray.cpp" t="Include" />
+              <e p="K2Node_LowEntry_MergeBytesPure.cpp" t="Include" />
+              <e p="K2Node_LowEntry_PurePrint.cpp" t="Include" />
+            </e>
+            <e p="Module" t="Include">
+              <e p="LowEntryExtendedStandardLibraryEditorModule.cpp" t="Include" />
+              <e p="LowEntryExtendedStandardLibraryEditorModule.h" t="Include" />
+              <e p="LowEntryExtendedStandardLibraryEditorPrivatePCH.h" t="Include" />
+            </e>
+          </e>
+          <e p="Public" t="Include">
+            <e p="Classes" t="Include">
+              <e p="K2Node_LowEntry_CreateBitDataWriter.h" t="Include" />
+              <e p="K2Node_LowEntry_CreateBitDataWriterPure.h" t="Include" />
+              <e p="K2Node_LowEntry_CreateByteDataWriter.h" t="Include" />
+              <e p="K2Node_LowEntry_CreateByteDataWriterPure.h" t="Include" />
+              <e p="K2Node_LowEntry_LocalVariable.h" t="Include" />
+              <e p="K2Node_LowEntry_MakeContainer.h" t="Include" />
+              <e p="K2Node_LowEntry_MakeCustomArray.h" t="Include" />
+              <e p="K2Node_LowEntry_MergeBytesPure.h" t="Include" />
+              <e p="K2Node_LowEntry_PurePrint.h" t="Include" />
+            </e>
+            <e p="Module" t="Include">
+              <e p="ILowEntryExtendedStandardLibraryEditorModule.h" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
     <e p="D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Media\AjaMedia" t="Include">
       <e p="AjaMedia.uplugin" t="Include" />
       <e p="Resources" t="Include">
@@ -42987,6 +43135,8 @@
           <e p="DamageComponent.h" t="Include" />
           <e p="Hit.cpp" t="Include" />
           <e p="Hit.h" t="Include" />
+          <e p="MyGameState.cpp" t="Include" />
+          <e p="MyGameState.h" t="Include" />
           <e p="MyPlayerController.cpp" t="Include" />
           <e p="MyPlayerController.h" t="Include" />
           <e p="MyPlayerState.cpp" t="Include" />

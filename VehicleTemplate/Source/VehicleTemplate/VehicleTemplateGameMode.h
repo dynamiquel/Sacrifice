@@ -1,11 +1,13 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 #pragma once
-#include "GameFramework/GameModeBase.h"
+#include "MyGameState.h"
+#include "MyPlayerState.h"
+#include "GameFramework/GameMode.h"
 
 #include "VehicleTemplateGameMode.generated.h"
 
 UCLASS(minimalapi)
-class AVehicleTemplateGameMode : public AGameModeBase
+class AVehicleTemplateGameMode : public AGameMode
 {
 	GENERATED_BODY()
 
@@ -21,6 +23,7 @@ protected:
 
 public:
 	virtual AActor* FindPlayerStart_Implementation(AController* Player, const FString& IncomingName) override;
+	void HandlePlayerDeath(AMyPlayerState* Victim, AMyPlayerState* Killer, AMyGameState* GameState);
 	
 private:
 	UPROPERTY()

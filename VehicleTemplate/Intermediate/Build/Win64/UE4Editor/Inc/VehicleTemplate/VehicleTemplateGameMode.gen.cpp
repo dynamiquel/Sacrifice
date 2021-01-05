@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 // Cross Module References
 	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_AVehicleTemplateGameMode_NoRegister();
 	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_AVehicleTemplateGameMode();
-	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API UClass* Z_Construct_UClass_AGameMode();
 	UPackage* Z_Construct_UPackage__Script_VehicleTemplate();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
@@ -97,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AVehicleTemplateGameMode_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
+		(UObject* (*)())Z_Construct_UClass_AGameMode,
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleTemplate,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AVehicleTemplateGameMode_Statics::FuncInfo[] = {
@@ -150,7 +150,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplateGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVehicleTemplateGameMode, 304427420);
+	IMPLEMENT_CLASS(AVehicleTemplateGameMode, 889021275);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<AVehicleTemplateGameMode>()
 	{
 		return AVehicleTemplateGameMode::StaticClass();

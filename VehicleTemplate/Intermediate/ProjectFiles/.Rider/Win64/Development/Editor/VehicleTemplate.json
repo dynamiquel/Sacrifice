@@ -113,6 +113,20 @@
 			]
 		},
 		{
+			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Binaries\\Win64\\UE4Editor-LowEntryExtendedStandardLibrary.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"LowEntryExtendedStandardLibrary"
+			]
+		},
+		{
+			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Binaries\\Win64\\UE4Editor-LowEntryExtendedStandardLibraryEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"LowEntryExtendedStandardLibraryEditor"
+			]
+		},
+		{
 			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -3949,6 +3963,20 @@
 			]
 		},
 		{
+			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Binaries\\Win64\\UE4Editor-LowEntryExtendedStandardLibrary.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"LowEntryExtendedStandardLibrary"
+			]
+		},
+		{
+			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Binaries\\Win64\\UE4Editor-LowEntryExtendedStandardLibraryEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"LowEntryExtendedStandardLibraryEditor"
+			]
+		},
+		{
 			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -5650,6 +5678,127 @@
 				"PrecompiledHeaderAction": "Include"
 			},
 			"SharedPCHFilePath": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"LowEntryExtendedStandardLibrary": 
+		{
+			"Name": "LowEntryExtendedStandardLibrary",
+			"Directory": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary",
+			"Rules": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\LowEntryExtendedStandardLibrary.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Engine",
+				"Core",
+				"ApplicationCore",
+				"CoreUObject",
+				"Slate",
+				"SlateCore",
+				"ImageWrapper",
+				"Media",
+				"MediaAssets",
+				"AIModule",
+				"EngineSettings"
+			],
+			"PublicIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\Module",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\Classes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\ClassesTypes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\ClassesLatentAction",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesLatentAction",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesTick",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesDelay",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesExecutionQueue",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\Classes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\ClassesLatentAction",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\ClassesTypes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesDelay",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesExecutionQueue",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesLatentAction",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\FClassesTick",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Public\\Module"
+			],
+			"PrivateIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibrary\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"LOWENTRYEXTENDEDSTANDARDLIBRARY_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\LowEntryExtendedStandardLibrary",
+			"ToolchainInfo": 
+			{
+				"bIsBuildingDLL": true,
+				"bOptimizeCode": true,
+				"bUseUnity": true,
+				"PrecompiledHeaderAction": "Include"
+			},
+			"SharedPCHFilePath": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"LowEntryExtendedStandardLibraryEditor": 
+		{
+			"Name": "LowEntryExtendedStandardLibraryEditor",
+			"Directory": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor",
+			"Rules": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\LowEntryExtendedStandardLibraryEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Engine",
+				"Core",
+				"CoreUObject",
+				"InputCore",
+				"Slate",
+				"EditorStyle",
+				"AIModule",
+				"BlueprintGraph",
+				"LowEntryExtendedStandardLibrary"
+			],
+			"PrivateDependencyModules": [
+				"EditorStyle",
+				"KismetCompiler",
+				"UnrealEd",
+				"GraphEditor",
+				"SlateCore",
+				"Kismet",
+				"KismetWidgets",
+				"PropertyEditor",
+				"ToolMenus"
+			],
+			"PublicIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Public\\Module",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Public\\Classes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Public\\Classes",
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Public\\Module"
+			],
+			"PrivateIncludePaths": [
+				"D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Source\\LowEntryExtendedStandardLibraryEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"LOWENTRYEXTENDEDSTANDARDLIBRARYEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\LowEntryExtendedStandardLibraryEditor",
+			"ToolchainInfo": 
+			{
+				"bIsBuildingDLL": true,
+				"bOptimizeCode": true,
+				"bUseUnity": true,
+				"PrecompiledHeaderAction": "Include"
+			},
+			"SharedPCHFilePath": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
 		"Paper2D": 
 		{
@@ -33902,6 +34051,15 @@
 			"Type": "Engine",
 			"Modules": [
 				"RawInput"
+			]
+		},
+		"LowEntryExtStdLib": 
+		{
+			"File": "D:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Marketplace\\LowEntryExtStdLib\\LowEntryExtStdLib.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"LowEntryExtendedStandardLibrary",
+				"LowEntryExtendedStandardLibraryEditor"
 			]
 		},
 		"Paper2D": 
