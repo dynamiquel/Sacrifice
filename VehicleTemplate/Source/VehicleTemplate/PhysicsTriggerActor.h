@@ -3,10 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
-
-#include "MyPlayerState.h"
-#include "WheeledVehicle.h"
+#include "SacrificeGameMode.h"
 #include "GameFramework/Actor.h"
 #include "PhysicsTriggerActor.generated.h"
 
@@ -19,27 +16,29 @@ public:
 	// Sets default values for this actor's properties
 	APhysicsTriggerActor();
 
+	// Called when the vehicle is overlapping with another
+	UFUNCTION(BlueprintCallable)
+    void OnOverlap(AActor* OtherActor);
+	// Called when the vehicle has been destroyed
+	UFUNCTION(BlueprintCallable)
+    void OnDestroy();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	AWheeledVehicle* LastOffender;
+	class AWheeledVehicle* LastOffender;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	FDateTime LastHit;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	AMyPlayerState* PlayerState;
+	class ASacrificePlayerState* PlayerState;
 
 	void FindPlayerState();
 	void ReceiveHit(AWheeledVehicle* OtherVehicle);
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-	
-	UFUNCTION(BlueprintCallable)
-	void OnOverlap(AActor* OtherActor);
-	UFUNCTION(BlueprintCallable)
-	void OnDestroy();
+	void KilledByOther(ASacrificeGameState* GameState, ASacrificeGameMode* GameMode);
+	void KilledBySelf(ASacrificeGameState* GameState, ASacrificeGameMode* GameMode) const;
 };

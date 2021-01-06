@@ -1,14 +1,7 @@
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Development\VehicleTemplate\Definitions.VehicleTemplate.h
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\PhysicsTriggerActor.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\MyPlayerState.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\MyPlayerState.generated.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
-D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\PhysicsTriggerActor.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\VehicleTemplateGameMode.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\MyGameState.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\SacrificeGameMode.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\SacrificeGameState.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameState.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
@@ -17,10 +10,17 @@ D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameState.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\MyGameState.generated.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\SacrificeGameState.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
-S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\VehicleTemplateGameMode.generated.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\SacrificeGameMode.generated.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\PhysicsTriggerActor.generated.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\SacrificePlayerState.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\SacrificePlayerState.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h

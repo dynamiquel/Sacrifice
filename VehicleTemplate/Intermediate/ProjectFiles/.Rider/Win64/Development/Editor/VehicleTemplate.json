@@ -15307,7 +15307,9 @@
 				"HeadMountedDisplay"
 			],
 			"PrivateDependencyModules": [
-				"Engine"
+				"Engine",
+				"UMGEditor",
+				"AIModule"
 			],
 			"PublicIncludePaths": [
 				"S:\\Users\\Liamk\\Development\\Games\\Sacrifice\\VehicleTemplate\\Source"

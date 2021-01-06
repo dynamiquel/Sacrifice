@@ -3,15 +3,12 @@
 #include "VehicleTemplateHud.h"
 #include "VehicleTemplatePawn.h"
 #include "WheeledVehicle.h"
-#include "RenderResource.h"
-#include "Shader.h"
 #include "Engine/Canvas.h"
-#include "WheeledVehicleMovementComponent.h"
 #include "Engine/Font.h"
 #include "CanvasItem.h"
-#include "PhysicsTriggerActor.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Engine/Engine.h"
+#include "GameFramework/PlayerState.h"
 
 #define LOCTEXT_NAMESPACE "VehicleHUD"
 

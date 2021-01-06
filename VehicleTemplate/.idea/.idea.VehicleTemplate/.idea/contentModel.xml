@@ -43131,23 +43131,25 @@
           <e p="AdvCarTemplateWheelFront.h" t="Include" />
           <e p="AdvCarTemplateWheelRear.cpp" t="Include" />
           <e p="AdvCarTemplateWheelRear.h" t="Include" />
-          <e p="DamageComponent.cpp" t="Include" />
-          <e p="DamageComponent.h" t="Include" />
-          <e p="Hit.cpp" t="Include" />
-          <e p="Hit.h" t="Include" />
-          <e p="MyGameState.cpp" t="Include" />
-          <e p="MyGameState.h" t="Include" />
-          <e p="MyPlayerController.cpp" t="Include" />
-          <e p="MyPlayerController.h" t="Include" />
-          <e p="MyPlayerState.cpp" t="Include" />
-          <e p="MyPlayerState.h" t="Include" />
+          <e p="BTTaskSteerVehicle.cpp" t="Include" />
+          <e p="BTTaskSteerVehicle.h" t="Include" />
+          <e p="BTTaskThrottle.cpp" t="Include" />
+          <e p="BTTaskThrottle.h" t="Include" />
           <e p="PhysicsTriggerActor.cpp" t="Include" />
           <e p="PhysicsTriggerActor.h" t="Include" />
+          <e p="SacrificeAIController.cpp" t="Include" />
+          <e p="SacrificeAIController.h" t="Include" />
+          <e p="SacrificeGameMode.cpp" t="Include" />
+          <e p="SacrificeGameMode.h" t="Include" />
+          <e p="SacrificeGameState.cpp" t="Include" />
+          <e p="SacrificeGameState.h" t="Include" />
+          <e p="SacrificePlayerController.cpp" t="Include" />
+          <e p="SacrificePlayerController.h" t="Include" />
+          <e p="SacrificePlayerState.cpp" t="Include" />
+          <e p="SacrificePlayerState.h" t="Include" />
           <e p="VehicleTemplate.Build.cs" t="Include" />
           <e p="VehicleTemplate.cpp" t="Include" />
           <e p="VehicleTemplate.h" t="Include" />
-          <e p="VehicleTemplateGameMode.cpp" t="Include" />
-          <e p="VehicleTemplateGameMode.h" t="Include" />
           <e p="VehicleTemplateHud.cpp" t="Include" />
           <e p="VehicleTemplateHud.h" t="Include" />
           <e p="VehicleTemplatePawn.cpp" t="Include" />

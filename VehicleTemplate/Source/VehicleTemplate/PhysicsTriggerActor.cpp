@@ -2,10 +2,8 @@
 
 
 #include "PhysicsTriggerActor.h"
-
-
-#include "MyPlayerState.h"
-#include "VehicleTemplateGameMode.h"
+#include "SacrificePlayerState.h"
+#include "SacrificeGameMode.h"
 #include "WheeledVehicle.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/GameState.h"
@@ -43,27 +41,6 @@ void APhysicsTriggerActor::Tick(float DeltaTime)
 		FindPlayerState();
 }
 
-void APhysicsTriggerActor::FindPlayerState()
-{
-	AWheeledVehicle* ThisVehicle = Cast<AWheeledVehicle>(GetParentActor());
-	if (!ThisVehicle)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Unable to get Parent for %s"), *GetName());
-		return;
-	}
-		
-	PlayerState = ThisVehicle->GetPlayerState<AMyPlayerState>();
-
-	if (PlayerState)
-		UE_LOG(LogTemp, Log, TEXT("Retrieved PlayerState for %s"), *ThisVehicle->GetName());
-}
-
-void APhysicsTriggerActor::ReceiveHit(AWheeledVehicle* OtherVehicle)
-{
-	LastOffender = OtherVehicle;
-	LastHit = FDateTime().UtcNow();
-}
-
 void APhysicsTriggerActor::OnOverlap(AActor* OtherActor)
 {	
 	// Ignore if self or if the other actor isn't a vehicle.
@@ -83,25 +60,51 @@ void APhysicsTriggerActor::OnDestroy()
 		return;
 	
 	FString DeathText;
-	AMyGameState* GameState = Cast<AMyGameState>(GetWorld()->GetGameState());
-	AVehicleTemplateGameMode* GameMode = Cast<AVehicleTemplateGameMode>(GameState->GameModeClass);
+	ASacrificeGameState* GameState = Cast<ASacrificeGameState>(GetWorld()->GetGameState());
+	ASacrificeGameMode* GameMode = Cast<ASacrificeGameMode>(GameState->GameModeClass);
 	
 	// Checks if this vehicle was hit by another several seconds ago.
 	if (LastOffender && (FDateTime().UtcNow() - LastHit).GetTotalSeconds()  <= 7.f)
-	{
-		AMyPlayerState* EnemyPlayerState = LastOffender->GetPlayerState<AMyPlayerState>();
-		if (!EnemyPlayerState)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Unable to get PlayerState for %s"), *LastOffender->GetName());
-		}
-		else
-		{
-			GameMode->HandlePlayerDeath(PlayerState, EnemyPlayerState, GameState);
-		}
-	}
+		KilledByOther(GameState, GameMode);
 	else /* suicide */
+		KilledBySelf(GameState, GameMode);
+}
+
+void APhysicsTriggerActor::FindPlayerState()
+{
+	AWheeledVehicle* ThisVehicle = Cast<AWheeledVehicle>(GetParentActor());
+	if (!ThisVehicle)
 	{
-		GameMode->HandlePlayerDeath(PlayerState, PlayerState, GameState);
+		UE_LOG(LogTemp, Warning, TEXT("Unable to get Parent for %s"), *GetName());
+		return;
+	}
+		
+	PlayerState = ThisVehicle->GetPlayerState<ASacrificePlayerState>();
+
+	if (PlayerState)
+		UE_LOG(LogTemp, Log, TEXT("Retrieved PlayerState for %s"), *ThisVehicle->GetName());
+}
+
+void APhysicsTriggerActor::ReceiveHit(AWheeledVehicle* OtherVehicle)
+{
+	LastOffender = OtherVehicle;
+	LastHit = FDateTime().UtcNow();
+}
+
+void APhysicsTriggerActor::KilledByOther(ASacrificeGameState* GameState, ASacrificeGameMode* GameMode)
+{
+	ASacrificePlayerState* EnemyPlayerState = LastOffender->GetPlayerState<ASacrificePlayerState>();
+	if (!EnemyPlayerState)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Unable to get PlayerState for %s"), *LastOffender->GetName());
+	}
+	else
+	{
+		GameMode->HandlePlayerDeath(PlayerState, EnemyPlayerState, GameState);
 	}
 }
 
+void APhysicsTriggerActor::KilledBySelf(ASacrificeGameState* GameState, ASacrificeGameMode* GameMode) const
+{
+	GameMode->HandlePlayerDeath(PlayerState, PlayerState, GameState);
+}

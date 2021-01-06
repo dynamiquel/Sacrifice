@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_VehicleTemplate();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_AMyPlayerState_NoRegister();
+	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_ASacrificePlayerState_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle_NoRegister();
 // End Cross Module References
@@ -55,7 +55,9 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Called when the vehicle has been destroyed\n" },
 		{ "ModuleRelativePath", "PhysicsTriggerActor.h" },
+		{ "ToolTip", "Called when the vehicle has been destroyed" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APhysicsTriggerActor, nullptr, "OnDestroy", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy_Statics::Function_MetaDataParams)) };
@@ -87,7 +89,9 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Called when the vehicle is overlapping with another\n" },
 		{ "ModuleRelativePath", "PhysicsTriggerActor.h" },
+		{ "ToolTip", "Called when the vehicle is overlapping with another" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APhysicsTriggerActor, nullptr, "OnOverlap", nullptr, nullptr, sizeof(PhysicsTriggerActor_eventOnOverlap_Parms), Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap_Statics::Function_MetaDataParams)) };
@@ -132,8 +136,8 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleTemplate,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APhysicsTriggerActor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy, "OnDestroy" }, // 3836761225
-		{ &Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap, "OnOverlap" }, // 1250236569
+		{ &Z_Construct_UFunction_APhysicsTriggerActor_OnDestroy, "OnDestroy" }, // 1090409331
+		{ &Z_Construct_UFunction_APhysicsTriggerActor_OnOverlap, "OnOverlap" }, // 3477906835
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APhysicsTriggerActor_Statics::Class_MetaDataParams[] = {
@@ -148,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 		{ "ModuleRelativePath", "PhysicsTriggerActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState = { "PlayerState", nullptr, (EPropertyFlags)0x0040000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsTriggerActor, PlayerState), Z_Construct_UClass_AMyPlayerState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState = { "PlayerState", nullptr, (EPropertyFlags)0x0040000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsTriggerActor, PlayerState), Z_Construct_UClass_ASacrificePlayerState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastHit_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -197,7 +201,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APhysicsTriggerActor, 2085943150);
+	IMPLEMENT_CLASS(APhysicsTriggerActor, 1471394840);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<APhysicsTriggerActor>()
 	{
 		return APhysicsTriggerActor::StaticClass();
