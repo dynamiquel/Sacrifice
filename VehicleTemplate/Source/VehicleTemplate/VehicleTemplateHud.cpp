@@ -61,6 +61,10 @@ void AVehicleTemplateHud::DrawHUD()
 				FCanvasTextItem DeathFeedTextItem(FVector2D(HUDXRatio * 40, HUDYRatio * 600), FText::AsNumber(353535), HUDFont, FLinearColor::White);
 				DeathFeedTextItem.Scale = ScaleVec * .5f;
 				Canvas->DrawItem(DeathFeedTextItem);
+
+				FCanvasTextItem PingTextItem(FVector2D(HUDXRatio * 1150, HUDYRatio * 300), FText::FromString(FString::Printf(TEXT("Score: %d"), (int)Vehicle->GetPlayerState()->GetPing())), HUDFont, FLinearColor::White);
+				ScoreTextItem.Scale = ScaleVec;
+				Canvas->DrawItem(ScoreTextItem);
 			}
 		}
 	}
