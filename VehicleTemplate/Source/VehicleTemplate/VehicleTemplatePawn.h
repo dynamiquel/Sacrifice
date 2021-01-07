@@ -99,11 +99,7 @@ public:
 	void OnToggleCamera();
 	/** Handle reset VR device */
 	void OnResetVR();
-
-	// The delegate function for handling a hit event.
-	UFUNCTION()
-    void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
-
+	
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
 
@@ -122,6 +118,19 @@ private:
 	/* Are we on a 'slippery' surface */
 	bool bIsLowFriction;
 
+	/** How long the vehicle can be flipped for before being destroyed */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Auto-destroy", meta = (AllowPrivateAccess = "true"))
+	float MaxFlipTime = 5.f;
+
+	/** How much rotation needed for the vehicle to be considered flipped */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Auto-destroy", meta = (AllowPrivateAccess = "true"))
+	float RotationLimit = 25.f;
+	
+	float TimeFlipped = 0.f;
+	void UpdateVehicleFlippedStatus(float DeltaTime);
+	
+	/** Returns true if the vehicle is considered to be flipped */
+	bool IsVehicleFlipped(float RotationLimit) const;
 
 public:
 	/** Returns SpringArm subobject **/

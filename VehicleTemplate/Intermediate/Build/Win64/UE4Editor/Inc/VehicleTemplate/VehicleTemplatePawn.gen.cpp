@@ -17,87 +17,14 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_AVehicleTemplatePawn();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle();
 	UPackage* Z_Construct_UPackage__Script_VehicleTemplate();
-	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AVehicleTemplatePawn::execOnHit)
-	{
-		P_GET_OBJECT(AActor,Z_Param_SelfActor);
-		P_GET_OBJECT(AActor,Z_Param_OtherActor);
-		P_GET_STRUCT(FVector,Z_Param_NormalImpulse);
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->OnHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit);
-		P_NATIVE_END;
-	}
 	void AVehicleTemplatePawn::StaticRegisterNativesAVehicleTemplatePawn()
 	{
-		UClass* Class = AVehicleTemplatePawn::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "OnHit", &AVehicleTemplatePawn::execOnHit },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics
-	{
-		struct VehicleTemplatePawn_eventOnHit_Parms
-		{
-			AActor* SelfActor;
-			AActor* OtherActor;
-			FVector NormalImpulse;
-			FHitResult Hit;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelfActor;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_Hit_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VehicleTemplatePawn_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_Hit_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_Hit_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VehicleTemplatePawn_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VehicleTemplatePawn_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_SelfActor = { "SelfActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VehicleTemplatePawn_eventOnHit_Parms, SelfActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_Hit,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_NormalImpulse,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::NewProp_SelfActor,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// The delegate function for handling a hit event.\n" },
-		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
-		{ "ToolTip", "The delegate function for handling a hit event." },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AVehicleTemplatePawn, nullptr, "OnHit", nullptr, nullptr, sizeof(VehicleTemplatePawn_eventOnHit_Parms), Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AVehicleTemplatePawn_OnHit()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AVehicleTemplatePawn_OnHit_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AVehicleTemplatePawn_NoRegister()
 	{
@@ -106,10 +33,17 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 	struct Z_Construct_UClass_AVehicleTemplatePawn_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotationLimit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotationLimit;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxFlipTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxFlipTime;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bInReverseGear_MetaData[];
 #endif
@@ -168,9 +102,6 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		(UObject* (*)())Z_Construct_UClass_AWheeledVehicle,
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleTemplate,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AVehicleTemplatePawn_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AVehicleTemplatePawn_OnHit, "OnHit" }, // 2077795010
-	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -178,6 +109,26 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Auto-destroy" },
+		{ "Comment", "/** How much rotation needed for the vehicle to be considered flipped */" },
+		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
+		{ "ToolTip", "How much rotation needed for the vehicle to be considered flipped" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit = { "RotationLimit", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehicleTemplatePawn, RotationLimit), METADATA_PARAMS(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Auto-destroy" },
+		{ "Comment", "/** How long the vehicle can be flipped for before being destroyed */" },
+		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
+		{ "ToolTip", "How long the vehicle can be flipped for before being destroyed" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime = { "MaxFlipTime", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehicleTemplatePawn, MaxFlipTime), METADATA_PARAMS(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_bInReverseGear_MetaData[] = {
 		{ "Category", "Camera" },
@@ -307,6 +258,8 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00400000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehicleTemplatePawn, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AVehicleTemplatePawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_bInReverseGear,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_bInCarCameraActive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_GearDisplayReverseColor,
@@ -328,11 +281,11 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_AVehicleTemplatePawn_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -347,7 +300,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVehicleTemplatePawn, 1791283266);
+	IMPLEMENT_CLASS(AVehicleTemplatePawn, 822861800);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<AVehicleTemplatePawn>()
 	{
 		return AVehicleTemplatePawn::StaticClass();

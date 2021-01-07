@@ -16,10 +16,11 @@ public:
 	// Sets default values for this actor's properties
 	APhysicsTriggerActor();
 
-	// Called when the vehicle is overlapping with another
+	/** Called when the vehicle is overlapping with another */
 	UFUNCTION(BlueprintCallable)
     void OnOverlap(AActor* OtherActor);
-	// Called when the vehicle has been destroyed
+	
+	/** Called when the vehicle has been destroyed */
 	UFUNCTION(BlueprintCallable)
     void OnDestroy();
 
@@ -30,13 +31,19 @@ protected:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	/** The last vehicle to collide with this vehicle */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class AWheeledVehicle* LastOffender;
+	
+	/** The time when this vehicle was last hit */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	FDateTime LastHit;
+	
+	/** Caches the PlayerState of the owner of this vehicle */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class ASacrificePlayerState* PlayerState;
 
+	/** Finds the PlayerState of the owner of this vehicle */
 	void FindPlayerState();
 	void ReceiveHit(AWheeledVehicle* OtherVehicle);
 	void KilledByOther(ASacrificeGameState* GameState, ASacrificeGameMode* GameMode);

@@ -116,8 +116,6 @@ AVehicleTemplatePawn::AVehicleTemplatePawn()
 	GearDisplayColor = FColor(255, 255, 255, 255);
 
 	bInReverseGear = false;
-
-	OnActorHit.AddDynamic(this, &AVehicleTemplatePawn::OnHit);
 }
 
 void AVehicleTemplatePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -194,6 +192,8 @@ void AVehicleTemplatePawn::Tick(float Delta)
 
 	// Setup the flag to say we are in reverse gear
 	bInReverseGear = GetVehicleMovement()->GetCurrentGear() < 0;
+
+	UpdateVehicleFlippedStatus(Delta);
 	
 	// Update the strings used in the hud (incar and onscreen)
 	UpdateHUDStrings();
@@ -243,11 +243,6 @@ void AVehicleTemplatePawn::OnResetVR()
 #endif // HMD_MODULE_INCLUDED
 }
 
-void AVehicleTemplatePawn::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
-{
-	UE_LOG(LogTemp, Warning, TEXT("Hit!"));
-}
-
 void AVehicleTemplatePawn::UpdateHUDStrings()
 {
 	float KPH = FMath::Abs(GetVehicleMovement()->GetForwardSpeed()) * 0.036f;
@@ -286,5 +281,29 @@ void AVehicleTemplatePawn::SetupInCarHUD()
 		}
 	}
 }
+
+// If the vehicle is somewhat flipped and unable to move.
+bool AVehicleTemplatePawn::IsVehicleFlipped(const float RotationLimit) const
+{		
+	const FRotator ActorRotation = GetActorRotation();
+	const float UpperRotationLimit = 360.f - RotationLimit;
+	
+	return (ActorRotation.Pitch > RotationLimit && ActorRotation.Pitch < UpperRotationLimit
+        || ActorRotation.Roll > RotationLimit && ActorRotation.Roll < UpperRotationLimit);
+}
+
+void AVehicleTemplatePawn::UpdateVehicleFlippedStatus(float DeltaTime)
+{
+	// Keeps a record of how long the vehicle has continuously been flipped.
+	if (IsVehicleFlipped(RotationLimit))
+		TimeFlipped += DeltaTime;
+	else
+		TimeFlipped = 0.f;
+
+	// If the vehicle has been flipped for too long, destroy it.
+	if (TimeFlipped >= MaxFlipTime)
+		Destroy();
+}
+
 
 #undef LOCTEXT_NAMESPACE

@@ -8,25 +8,14 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
-struct FVector;
-struct FHitResult;
 #ifdef VEHICLETEMPLATE_VehicleTemplatePawn_generated_h
 #error "VehicleTemplatePawn.generated.h already included, missing '#pragma once' in VehicleTemplatePawn.h"
 #endif
 #define VEHICLETEMPLATE_VehicleTemplatePawn_generated_h
 
 #define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_SPARSE_DATA
-#define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execOnHit);
-
-
-#define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execOnHit);
-
-
+#define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_RPC_WRAPPERS
+#define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAVehicleTemplatePawn(); \
@@ -75,7 +64,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVehicleTemplatePawn); \
 	FORCEINLINE static uint32 __PPO__InternalCameraBase() { return STRUCT_OFFSET(AVehicleTemplatePawn, InternalCameraBase); } \
 	FORCEINLINE static uint32 __PPO__InternalCamera() { return STRUCT_OFFSET(AVehicleTemplatePawn, InternalCamera); } \
 	FORCEINLINE static uint32 __PPO__InCarSpeed() { return STRUCT_OFFSET(AVehicleTemplatePawn, InCarSpeed); } \
-	FORCEINLINE static uint32 __PPO__InCarGear() { return STRUCT_OFFSET(AVehicleTemplatePawn, InCarGear); }
+	FORCEINLINE static uint32 __PPO__InCarGear() { return STRUCT_OFFSET(AVehicleTemplatePawn, InCarGear); } \
+	FORCEINLINE static uint32 __PPO__MaxFlipTime() { return STRUCT_OFFSET(AVehicleTemplatePawn, MaxFlipTime); } \
+	FORCEINLINE static uint32 __PPO__RotationLimit() { return STRUCT_OFFSET(AVehicleTemplatePawn, RotationLimit); }
 
 
 #define VehicleTemplate_Source_VehicleTemplate_VehicleTemplatePawn_h_14_PROLOG

@@ -70,6 +70,7 @@ void APhysicsTriggerActor::OnDestroy()
 		KilledBySelf(GameState, GameMode);
 }
 
+/** Finds the PlayerState of the owner of this vehicle */
 void APhysicsTriggerActor::FindPlayerState()
 {
 	AWheeledVehicle* ThisVehicle = Cast<AWheeledVehicle>(GetParentActor());
