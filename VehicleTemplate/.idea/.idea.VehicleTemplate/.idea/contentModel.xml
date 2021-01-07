@@ -43135,6 +43135,12 @@
           <e p="BTTaskSteerVehicle.h" t="Include" />
           <e p="BTTaskThrottle.cpp" t="Include" />
           <e p="BTTaskThrottle.h" t="Include" />
+          <e p="LobbyGameMode.cpp" t="Include" />
+          <e p="LobbyGameMode.h" t="Include" />
+          <e p="LobbyPlayerController.cpp" t="Include" />
+          <e p="LobbyPlayerController.h" t="Include" />
+          <e p="MainMenuGameMode.cpp" t="Include" />
+          <e p="MainMenuGameMode.h" t="Include" />
           <e p="PhysicsTriggerActor.cpp" t="Include" />
           <e p="PhysicsTriggerActor.h" t="Include" />
           <e p="SacrificeAIController.cpp" t="Include" />

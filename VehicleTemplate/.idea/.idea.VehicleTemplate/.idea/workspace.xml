@@ -24,25 +24,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24adabbc-d51b-4545-9b38-8a7c86e383d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VehicleTemplate/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VehicleTemplate/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VehicleTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VehicleTemplate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_VehicleTemplatePawn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_VehicleTemplatePawn.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/VehicleCPP/Maps/VehicleExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/VehicleCPP/Maps/VehicleExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_VehicleTemplateHud.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_VehicleTemplateHud.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_Lobby.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_Lobby.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_MainMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Lobby.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Lobby.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/MainMenu.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/MainMenu.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/PhysicsTriggerActor.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/PhysicsTriggerActor.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.dll.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/VehicleTemplate/UE4Editor-VehicleTemplate.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/VehicleTemplate.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/VehicleTemplate/VehicleTemplate.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/VehicleTemplateEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/VehicleTemplateEditor/Development/VehicleTemplateEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/VehicleTemplate.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/VehicleTemplate.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/VehicleTemplate.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/VehicleTemplate.vcxproj.filters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Game.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Game.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Input.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Input.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/VehicleTemplate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/VehicleTemplate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/VehicleTemplate/VehicleTemplateHud.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VehicleTemplate/VehicleTemplateHud.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +99,12 @@
         <option value="$PROJECT_DIR$/Source/VehicleTemplate/PhysicsTriggerActor.h" />
         <option value="$PROJECT_DIR$/Source/VehicleTemplate/PhysicsTriggerActor.cpp" />
         <option value="$PROJECT_DIR$/Source/VehicleTemplate/VehicleTemplateHud.cpp" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/LobbyGameMode.h" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/LobbyGameMode.cpp" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/LobbyPlayerController.cpp" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/LobbyPlayerController.h" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/MainMenuGameMode.h" />
+        <option value="$PROJECT_DIR$/Source/VehicleTemplate/MainMenuGameMode.cpp" />
       </list>
     </option>
   </component>
@@ -340,7 +354,7 @@
       <workItem from="1609868356236" duration="10101000" />
       <workItem from="1609944283479" duration="4599000" />
       <workItem from="1609951821282" duration="10606000" />
-      <workItem from="1610031514040" duration="4203000" />
+      <workItem from="1610031514040" duration="9864000" />
     </task>
     <servers />
   </component>
