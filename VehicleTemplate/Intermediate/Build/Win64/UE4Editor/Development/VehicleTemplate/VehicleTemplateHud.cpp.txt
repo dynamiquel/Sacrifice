@@ -7,6 +7,8 @@ D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\VehicleTemplateHud.generated.h
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\VehicleTemplatePawn.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Source\VehicleTemplate\UsableItemComponent.h
+S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\UsableItemComponent.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
 S:\Users\Liamk\Development\Games\Sacrifice\VehicleTemplate\Intermediate\Build\Win64\UE4Editor\Inc\VehicleTemplate\VehicleTemplatePawn.generated.h

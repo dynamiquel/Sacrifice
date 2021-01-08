@@ -31,6 +31,9 @@ protected:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	class UUsableItemComponent* UsableItemComp;
+	
 	/** The last vehicle to collide with this vehicle */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class AWheeledVehicle* LastOffender;

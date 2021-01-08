@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "UsableItemComponent.h"
 #include "WheeledVehicle.h"
 #include "VehicleTemplatePawn.generated.h"
 
@@ -127,6 +129,10 @@ private:
 	float RotationLimit = 25.f;
 	
 	float TimeFlipped = 0.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components", meta = (AllowPrivateAccess = "true"))
+	UUsableItemComponent* UsableItemComp;
+	
 	void UpdateVehicleFlippedStatus(float DeltaTime);
 	
 	/** Returns true if the vehicle is considered to be flipped */
@@ -143,4 +149,5 @@ public:
 	FORCEINLINE UTextRenderComponent* GetInCarSpeed() const { return InCarSpeed; }
 	/** Returns InCarGear subobject **/
 	FORCEINLINE UTextRenderComponent* GetInCarGear() const { return InCarGear; }
+	FORCEINLINE UUsableItemComponent* GetUsableItemComp() const { return UsableItemComp; }
 };

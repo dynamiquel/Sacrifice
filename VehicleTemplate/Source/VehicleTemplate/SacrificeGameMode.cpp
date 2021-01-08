@@ -89,6 +89,9 @@ void ASacrificeGameMode::GetRemainingPlayers(ASacrificePlayerState* Victim, ASac
 
 void ASacrificeGameMode::RoundOver(APlayerState* LastAlivePlayerState, OUT FString& FeedText)
 {
+	// Gain an extra point for being last alive.
+	LastAlivePlayerState->SetScore(LastAlivePlayerState->GetScore() + 1);
+	
 	// Output LastAlivePlayerState won.
 	FeedText = FString::Printf(TEXT("%s won the round!"), *LastAlivePlayerState->GetPlayerName());
 }

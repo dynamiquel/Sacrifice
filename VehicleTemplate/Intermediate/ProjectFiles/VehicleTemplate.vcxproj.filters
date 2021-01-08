@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VehicleTemplate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{49B64C01-CB7F-477B-9C9A-0A3A9D31A1A0}</UniqueIdentifier>
+      <UniqueIdentifier>{D636A313-D1D4-4BAC-9125-08E0D01A567D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VehicleTemplate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{026C4B64-2590-4858-B8CD-56B143C4A994}</UniqueIdentifier>
+      <UniqueIdentifier>{FF18D572-92F8-4042-8FCF-26DE4337BCB2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VehicleTemplate">
-      <UniqueIdentifier>{43BAA9F5-3762-45BF-9C2A-3FB5745642F9}</UniqueIdentifier>
+      <UniqueIdentifier>{38365507-03EF-4AA5-92E2-76BA4675B222}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplatePawn.cpp">
       <Filter>Source\VehicleTemplate</Filter>
@@ -114,6 +114,30 @@
       <Filter>Source\VehicleTemplate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\VehicleTemplate\SacrificePlayerState.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\Spawner.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\Spawner.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\Tripmine.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\Tripmine.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\TripminePickup.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\TripminePickup.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\UsableItemComponent.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\UsableItemComponent.h">
       <Filter>Source\VehicleTemplate</Filter>
     </ClInclude>
     <None Include="..\..\Source\VehicleTemplate\VehicleTemplate.Build.cs">

@@ -23,6 +23,7 @@ protected:
 public:
 	virtual AActor* FindPlayerStart_Implementation(AController* Player, const FString& IncomingName) override;
 	void HandlePlayerDeath(ASacrificePlayerState* Victim, ASacrificePlayerState* Killer, ASacrificeGameState* GameState);
+	/** Spawns an actor on the server so it gets replicated on all clients */
 	
 private:
 	UPROPERTY()

@@ -116,6 +116,10 @@ AVehicleTemplatePawn::AVehicleTemplatePawn()
 	GearDisplayColor = FColor(255, 255, 255, 255);
 
 	bInReverseGear = false;
+
+	// Set ups the Usable Item Component
+	UsableItemComp = CreateDefaultSubobject<UUsableItemComponent>(TEXT("Usable Item Component"));
+	this->AddOwnedComponent(UsableItemComp);
 }
 
 void AVehicleTemplatePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -134,7 +138,9 @@ void AVehicleTemplatePawn::SetupPlayerInputComponent(class UInputComponent* Play
 	PlayerInputComponent->BindAction("Handbrake", IE_Released, this, &AVehicleTemplatePawn::OnHandbrakeReleased);
 	PlayerInputComponent->BindAction("SwitchCamera", IE_Pressed, this, &AVehicleTemplatePawn::OnToggleCamera);
 
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AVehicleTemplatePawn::OnResetVR); 
+	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AVehicleTemplatePawn::OnResetVR);
+
+	PlayerInputComponent->BindAction("UseItem", IE_Pressed, UsableItemComp, &UUsableItemComponent::UseItem);
 }
 
 void AVehicleTemplatePawn::MoveForward(float Val)

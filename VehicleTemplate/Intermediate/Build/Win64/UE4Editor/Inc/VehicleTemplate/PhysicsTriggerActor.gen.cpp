@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_ASacrificePlayerState_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle_NoRegister();
+	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_UUsableItemComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(APhysicsTriggerActor::execOnDestroy)
 	{
@@ -127,6 +128,10 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LastOffender_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LastOffender;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UsableItemComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UsableItemComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -175,10 +180,20 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastOffender = { "LastOffender", nullptr, (EPropertyFlags)0x0040000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsTriggerActor, LastOffender), Z_Construct_UClass_AWheeledVehicle_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastOffender_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastOffender_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_UsableItemComp_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "PhysicsTriggerActor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PhysicsTriggerActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_UsableItemComp = { "UsableItemComp", nullptr, (EPropertyFlags)0x004000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APhysicsTriggerActor, UsableItemComp), Z_Construct_UClass_UUsableItemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_UsableItemComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_UsableItemComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APhysicsTriggerActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_PlayerState,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_LastOffender,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APhysicsTriggerActor_Statics::NewProp_UsableItemComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APhysicsTriggerActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APhysicsTriggerActor>::IsAbstract,
@@ -207,7 +222,7 @@ void EmptyLinkFunctionForGeneratedCodePhysicsTriggerActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APhysicsTriggerActor, 3108473489);
+	IMPLEMENT_CLASS(APhysicsTriggerActor, 809305561);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<APhysicsTriggerActor>()
 	{
 		return APhysicsTriggerActor::StaticClass();

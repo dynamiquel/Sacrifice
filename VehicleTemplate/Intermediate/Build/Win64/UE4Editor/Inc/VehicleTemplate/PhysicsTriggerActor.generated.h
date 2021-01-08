@@ -70,6 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APhysicsTriggerActor); \
 
 
 #define VehicleTemplate_Source_VehicleTemplate_PhysicsTriggerActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__UsableItemComp() { return STRUCT_OFFSET(APhysicsTriggerActor, UsableItemComp); } \
 	FORCEINLINE static uint32 __PPO__LastOffender() { return STRUCT_OFFSET(APhysicsTriggerActor, LastOffender); } \
 	FORCEINLINE static uint32 __PPO__LastHit() { return STRUCT_OFFSET(APhysicsTriggerActor, LastHit); } \
 	FORCEINLINE static uint32 __PPO__PlayerState() { return STRUCT_OFFSET(APhysicsTriggerActor, PlayerState); }

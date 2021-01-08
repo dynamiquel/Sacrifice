@@ -43153,6 +43153,14 @@
           <e p="SacrificePlayerController.h" t="Include" />
           <e p="SacrificePlayerState.cpp" t="Include" />
           <e p="SacrificePlayerState.h" t="Include" />
+          <e p="Spawner.cpp" t="Include" />
+          <e p="Spawner.h" t="Include" />
+          <e p="Tripmine.cpp" t="Include" />
+          <e p="Tripmine.h" t="Include" />
+          <e p="TripminePickup.cpp" t="Include" />
+          <e p="TripminePickup.h" t="Include" />
+          <e p="UsableItemComponent.cpp" t="Include" />
+          <e p="UsableItemComponent.h" t="Include" />
           <e p="VehicleTemplate.Build.cs" t="Include" />
           <e p="VehicleTemplate.cpp" t="Include" />
           <e p="VehicleTemplate.h" t="Include" />

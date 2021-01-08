@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_AVehicleTemplatePawn();
 	PHYSXVEHICLES_API UClass* Z_Construct_UClass_AWheeledVehicle();
 	UPackage* Z_Construct_UPackage__Script_VehicleTemplate();
+	VEHICLETEMPLATE_API UClass* Z_Construct_UClass_UUsableItemComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -36,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UsableItemComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UsableItemComp;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotationLimit_MetaData[];
 #endif
@@ -109,6 +114,15 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_UsableItemComp_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "VehicleTemplatePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_UsableItemComp = { "UsableItemComp", nullptr, (EPropertyFlags)0x004000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehicleTemplatePawn, UsableItemComp), Z_Construct_UClass_UUsableItemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_UsableItemComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_UsableItemComp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -258,6 +272,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x00400000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVehicleTemplatePawn, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_SpringArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AVehicleTemplatePawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_UsableItemComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_RotationLimit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_MaxFlipTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVehicleTemplatePawn_Statics::NewProp_bInReverseGear,
@@ -300,7 +315,7 @@ void EmptyLinkFunctionForGeneratedCodeVehicleTemplatePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVehicleTemplatePawn, 822861800);
+	IMPLEMENT_CLASS(AVehicleTemplatePawn, 2289666104);
 	template<> VEHICLETEMPLATE_API UClass* StaticClass<AVehicleTemplatePawn>()
 	{
 		return AVehicleTemplatePawn::StaticClass();
