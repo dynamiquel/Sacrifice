@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VehicleTemplate.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D636A313-D1D4-4BAC-9125-08E0D01A567D}</UniqueIdentifier>
+      <UniqueIdentifier>{2259E3A1-9C09-406D-95EF-84A8F52178D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VehicleTemplate.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FF18D572-92F8-4042-8FCF-26DE4337BCB2}</UniqueIdentifier>
+      <UniqueIdentifier>{59A832CB-BAFE-4B61-86F1-124C9A194F72}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VehicleTemplate">
-      <UniqueIdentifier>{38365507-03EF-4AA5-92E2-76BA4675B222}</UniqueIdentifier>
+      <UniqueIdentifier>{3423241E-E745-41A3-80B2-CAD933369217}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VehicleTemplate\AdvCarTemplatePawn.cpp">
       <Filter>Source\VehicleTemplate</Filter>
@@ -48,6 +48,18 @@
       <Filter>Source\VehicleTemplate</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\VehicleTemplate\AdvCarTemplateWheelRear.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\AIPath.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\AIPath.h">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleTemplate\BTSSteering.cpp">
+      <Filter>Source\VehicleTemplate</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleTemplate\BTSSteering.h">
       <Filter>Source\VehicleTemplate</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\VehicleTemplate\BTTaskSteerVehicle.cpp">

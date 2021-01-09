@@ -43131,6 +43131,10 @@
           <e p="AdvCarTemplateWheelFront.h" t="Include" />
           <e p="AdvCarTemplateWheelRear.cpp" t="Include" />
           <e p="AdvCarTemplateWheelRear.h" t="Include" />
+          <e p="AIPath.cpp" t="Include" />
+          <e p="AIPath.h" t="Include" />
+          <e p="BTSSteering.cpp" t="Include" />
+          <e p="BTSSteering.h" t="Include" />
           <e p="BTTaskSteerVehicle.cpp" t="Include" />
           <e p="BTTaskSteerVehicle.h" t="Include" />
           <e p="BTTaskThrottle.cpp" t="Include" />
