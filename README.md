@@ -16,3 +16,5 @@ Features:
 - Online multiplayer
 
 [Video showing some of the gameplay](https://1drv.ms/u/s!Aj-V03Xo-8Soge5H0CSIrPLHD3qaTA?e=5erecE)
+
+The art assets are from [Brushify's Arctic Pack](https://www.unrealengine.com/marketplace/en-US/product/brushify-arctic-pack).
